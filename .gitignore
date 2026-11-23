@@ -1,0 +1,26 @@
+# Raw & individual-level survey datasets (NEVER commit)
+*.sav
+*.zsav
+*.por
+*.dta
+*.sas7bdat
+data/
+*CH_Initial*.csv
+*leadlens*.csv
+*LeadLens*.csv
+*MICS*.csv
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environment & OS files
+.env
+.DS_Store
+Thumbs.db
+.vscode/
