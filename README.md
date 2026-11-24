@@ -1,5 +1,5 @@
 A data analytics and machine learning pipeline investigating childhood lead-exposure risk factors in Bangladesh using UNICEF MICS survey data.
-- [ ] Dataset preparation & variable inventory
+- [x] Dataset preparation & variable inventory
 - [ ] Data cleaning & missing-value handling
 - [ ] Exploratory Data Analysis (EDA)
 - [ ] Feature engineering & selection
