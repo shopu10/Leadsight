@@ -1,0 +1,598 @@
+﻿Variable,Description,Missing_Percentage,Unique_Values,Value_Labels
+HH3,Interviewer number,0.0,205,{}
+HH4,Supervisor number,0.0,41,{}
+HH5D,Day of interview,0.0,31,{}
+HH5M,Month of interview,0.0,5,{}
+HH5Y,Year of interview,0.0,1,{}
+HH6,Area,0.0,2,"{1.0: 'Urban', 2.0: 'Rural'}"
+HH7,Division,0.0,8,"{10.0: 'Barishal', 20.0: 'Chattogram', 30.0: 'Dhaka', 40.0: 'Khulna', 45.0: 'Mymensingh', 50.0: 'Rajshahi', 55.0: 'Rangpur', 60.0: 'Sylhet'}"
+HH7A,District,0.0,67,"{1.0: 'BAGERHAT', 3.0: 'BANDARBAN', 4.0: 'BARGUNA', 6.0: 'BARISHAL', 9.0: 'BHOLA', 10.0: 'BOGURA', 12.0: 'BRAHMANBARIA', 13.0: 'CHANDPUR', 15.0: 'CHATTOGRAM', 16.0: 'CHATTOGRAM CITY CORPORATION', 18.0: 'CHUADANGA', 19.0: 'CUMILLA', 20.0: 'DHAKA SOUTH CITY CORPORATION', 22.0: ""COX'S BAZAR"", 25.0: 'DHAKA NORTH CITY CORPORATION', 26.0: 'DHAKA', 27.0: 'DINAJPUR', 29.0: 'FARIDPUR', 30.0: 'FENI', 32.0: 'GAIBANDHA', 33.0: 'GAZIPUR', 35.0: 'GOPALGANJ', 36.0: 'HABIGANJ', 38.0: 'JOYPURHAT', 39.0: 'JAMALPUR', 41.0: 'JASHORE', 42.0: 'JHALOKATI', 44.0: 'JHENAIDAH', 46.0: 'KHAGRACHHARI', 47.0: 'KHULNA', 48.0: 'KISHOREGANJ', 49.0: 'KURIGRAM', 50.0: 'KUSHTIA', 51.0: 'LAKSHMIPUR', 52.0: 'LALMONIRHAT', 54.0: 'MADARIPUR', 55.0: 'MAGURA', 56.0: 'MANIKGANJ', 57.0: 'MEHERPUR', 58.0: 'MOULVIBAZAR', 59.0: 'MUNSHIGANJ', 61.0: 'MYMENSINGH', 64.0: 'NAOGAON', 65.0: 'NARAIL', 67.0: 'NARAYANGANJ', 68.0: 'NARSINGDI', 69.0: 'NATORE', 70.0: 'CHAPAINABABGANJ', 72.0: 'NETRAKONA', 73.0: 'NILPHAMARI', 75.0: 'NOAKHALI', 76.0: 'PABNA', 77.0: 'PANCHAGARH', 78.0: 'PATUAKHALI', 79.0: 'PIROJPUR', 81.0: 'RAJSHAHI', 82.0: 'RAJBARI', 84.0: 'RANGAMATI', 85.0: 'RANGPUR', 86.0: 'SHARIATPUR', 87.0: 'SATKHIRA', 88.0: 'SIRAJGANJ', 89.0: 'SHERPUR', 90.0: 'SUNAMGANJ', 91.0: 'SYLHET', 93.0: 'TANGAIL', 94.0: 'THAKURGAON'}"
+HH8,HH selected for Questionnaire for Men,0.0,1,"{1.0: 'YES', 2.0: 'NO'}"
+HH9,"HH selected for Arsenic, Salinity and E. coli testing for source water?",0.0,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH9A,HH selected for E. coli testing at point of use,100.0,0,"{1.0: 'YES', 2.0: 'NO'}"
+HH10,HH selected for Blank Testing,0.0,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH11H,Start of interview - Hour,0.0,16,{}
+HH11M,Start of interview - Minutes,0.0,60,{}
+HH11C,Respondent age confirmation,0.0,1,{1.0: 'CONTINUE'}
+HH12,Consent,0.0,1,"{1.0: 'YES', 2.0: 'NO / NOT ASKED'}"
+HH46,Result of HH interview,0.0,1,"{1.0: 'COMPLETED', 2.0: 'NO HOUSEHOLD MEMBER AT HOME OR NO COMPETENT RESPONDENT AT HOME AT TIME OF VISIT', 3.0: 'ENTIRE HOUSEHOLD ABSENT FOR EXTENDED PERIOD OF TIME', 4.0: 'REFUSED', 5.0: 'DWELLING VACANT OR ADDRESS NOT A DWELLING', 6.0: 'DWELLING DESTROYED', 7.0: 'DWELLING NOT FOUND', 96.0: 'OTHER'}"
+HH13H,End of interview - Hour,0.0,18,{}
+HH13M,End of interview - Minutes,0.0,60,{}
+HH14,Language of the Questionnaire,0.0,1,{2.0: 'BANGLA'}
+HH15,Language of the Interview,0.0,2,"{2.0: 'BANGLA', 6.0: 'OTHER LANGUAGE'}"
+HH16,Native language of the Respondent,0.0,2,"{2.0: 'BANGLA', 6.0: 'OTHER LANGUAGE'}"
+HH17,Translator used,0.0,3,"{1.0: 'YES, ENTIRE QUESTIONNAIRE', 2.0: 'YES, PART OF QUESTIONNAIRE', 3.0: 'NO, NOT USED'}"
+HH26A,Rank number of the selected child,33.73,7,{}
+HH26B,Child line number,33.73,16,{97.0: 'Inconsistent'}
+HH26C,Child's age,33.73,13,{}
+HH30HA,Rank number of the selected woman for the VW module,100.0,0,{}
+HH30HB,Woman line number for the VW module,100.0,0,{97.0: 'Inconsistent'}
+HH30HC,Woman's age (selected for the VW module),100.0,0,{}
+HH33X$01,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$02,Roster to check the consent for interview girls 15-17,99.73,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$03,Roster to check the consent for interview girls 15-17,99.13,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$04,Roster to check the consent for interview girls 15-17,98.36,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$05,Roster to check the consent for interview girls 15-17,97.88,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$06,Roster to check the consent for interview girls 15-17,98.95,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$07,Roster to check the consent for interview girls 15-17,99.48,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$08,Roster to check the consent for interview girls 15-17,99.76,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$09,Roster to check the consent for interview girls 15-17,99.92,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$10,Roster to check the consent for interview girls 15-17,99.94,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$11,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$12,Roster to check the consent for interview girls 15-17,99.99,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$13,Roster to check the consent for interview girls 15-17,99.97,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$14,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$15,Roster to check the consent for interview girls 15-17,99.98,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$16,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$17,Roster to check the consent for interview girls 15-17,99.99,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$18,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$19,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$20,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$21,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$22,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$23,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$24,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$25,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$26,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$27,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$28,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$29,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$30,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$31,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$32,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$33,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$34,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$35,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$36,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$37,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$38,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$39,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$40,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$41,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$42,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$43,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$44,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$45,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$46,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$47,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$48,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$49,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33X$50,Roster to check the consent for interview girls 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH33,Consent for interview girls 15-17,93.3,1,"{1.0: 'YES for all girls age 15-17', 2.0: 'NO for at least one girl age 15-17 and Yes to at least one girl age 15-17', 3.0: 'NO for all girls age 15-17'}"
+HH39X$01,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$02,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$03,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$04,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$05,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$06,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$07,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$08,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$09,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$10,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$11,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$12,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$13,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$14,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$15,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$16,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$17,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$18,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$19,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$20,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$21,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$22,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$23,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$24,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$25,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$26,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$27,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$28,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$29,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$30,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$31,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$32,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$33,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$34,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$35,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$36,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$37,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$38,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$39,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$40,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$41,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$42,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$43,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$44,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$45,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$46,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$47,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$48,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$49,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39X$50,Roster to check the consent for interview boys 15-17,100.0,0,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH39,Consent for interview boys 15-17,100.0,0,"{1.0: 'YES for all boys age 15-17', 2.0: 'NO for at least one boy age 15-17 and Yes to at least one boy age 15-17', 3.0: 'NO for all boys age 15-17'}"
+HH44,Consent for Water Quality Testing,89.47,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+HH47,Respondent to HH questionnaire,0.0,13,{}
+HH48,Number of HH members,0.0,21,{}
+HH49,Number of women 15-49 years,0.0,8,{}
+HH50,Number of men 15-49 years [If household is selected for Questionnaire for Men],0.0,1,{}
+HH54,Number of man's questionnaires completed [If household is selected for Questionnaire for Men],0.0,1,{}
+HH51,Number of children under age 5,0.0,5,{}
+HH52,Number of children age 5-17,0.0,10,{}
+HH52B,Number of children age 1-4,0.0,5,{}
+HH56A,Number of 1-4 blood collection questionnaires completed,0.0,1,{}
+INTROHL,Introduction HH Listing,0.0,1,{'1': 'CONTINUE'}
+HHAUX,Other household members,0.0,1,"{1.0: 'YES', 2.0: 'NO'}"
+HHWQ,Water Quality prompt,0.0,2,{'1': 'CONTINUE'}
+HH44BC,Consent for phone survey,0.0,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH44DE,Have personal phone number or phone number for the household,2.01,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH44F,Note on sharing phone number for the household,4.15,1,{1.0: 'CONTINUE'}
+HHFIN,Finish,0.0,2,"{1.0: 'REVIEW QUESTIONNAIRE', 2.0: 'ADD NOTES', 3.0: 'SAVE QUESTIONNAIRE AND FINISH'}"
+HC1A,Religion of household head,0.0,5,"{1.0: 'ISLAM', 2.0: 'HINDUISM', 3.0: 'CHRISTIANITY', 4.0: 'BUDDHISM', 6.0: 'OTHER RELIGION', 7.0: 'NO RELIGION', 9.0: 'NO RESPONSE'}"
+HC1B,Language of household head,0.0,2,"{2.0: 'BANGLA', 6.0: 'OTHER LANGUAGE', 9.0: 'NO RESPONSE'}"
+HC2,Ethnic group of household head,0.0,10,"{1.0: 'BANGALI', 2.0: 'CHAKMA', 3.0: 'SAOTAL', 4.0: 'MARMA', 5.0: 'TRIPURA', 6.0: 'GARO', 7.0: 'TONCHANGYA', 8.0: 'MRO', 9.0: 'KHASHIA', 10.0: 'MANIPUR', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+HC3,Number of rooms used for sleeping,0.0,11,{99.0: 'NO RESPONSE'}
+HC4,Main material of floor,0.0,10,"{11.0: 'NATURAL FLOOR: EARTH/ SAND', 12.0: 'NATURAL FLOOR: DUNG', 21.0: 'RUDIMENTARY FLOOR: WOOD PLANKS', 22.0: 'RUDIMENTARY FLOOR: PALM / BAMBOO / BETEL NUT', 31.0: 'FINISHED FLOOR: PARQUET OR POLISHED WOOD', 32.0: 'FINISHED FLOOR: VINYL OR ASPHALT STRIPS', 33.0: 'FINISHED FLOOR: CERAMIC TILES', 34.0: 'FINISHED FLOOR: CEMENT', 35.0: 'FINISHED FLOOR: CARPET', 96.0: 'OTHER'}"
+HC5,Main material of roof,0.0,13,"{11.0: 'NO ROOF', 12.0: 'NATURAL ROOFING: THATCH / PALM LEAF / NIPA PALM', 13.0: 'NATURAL ROOFING: SOD', 21.0: 'RUDIMENTARY ROOFING: RUSTIC MAT', 22.0: 'RUDIMENTARY ROOFING: PALM / BAMBOO', 23.0: 'RUDIMENTARY ROOFING: WOOD PLANKS', 24.0: 'RUDIMENTARY ROOFING: CARDBOARD', 31.0: 'FINISHED ROOFING: METAL / TIN', 32.0: 'FINISHED ROOFING: WOOD', 33.0: 'FINISHED ROOFING: CALAMINE / CEMENT FIBRE', 34.0: 'FINISHED ROOFING: CERAMIC TILES', 35.0: 'FINISHED ROOFING: CEMENT', 36.0: 'FINISHED ROOFING: ROOFING SHINGLES', 96.0: 'OTHER'}"
+HC6,Main material of exterior wall,0.0,17,"{11.0: 'NO WALLS', 12.0: 'NATURAL WALLS: CANE / PALM / TRUNKS', 13.0: 'NATURAL WALLS: DIRT', 14.0: 'NATURAL WALLS: BAMBOO WITH POLYETHENE', 21.0: 'RUDIMENTARY WALLS: BAMBOO WITH MUD', 22.0: 'RUDIMENTARY WALLS: STONE WITH MUD', 23.0: 'RUDIMENTARY WALLS: UNCOVERED ADOBE', 24.0: 'RUDIMENTARY WALLS: PLYWOOD', 25.0: 'RUDIMENTARY WALLS: CARDBOARD', 26.0: 'RUDIMENTARY WALLS: REUSED WOOD', 27.0: 'RUDIMENTARY WALLS: TIN', 31.0: 'FINISHED WALLS: CEMENT', 32.0: 'FINISHED WALLS: STONE WITH LIME / CEMENT', 33.0: 'FINISHED WALLS: BRICKS', 34.0: 'FINISHED WALLS: CEMENT BLOCKS', 35.0: 'FINISHED WALLS: COVERED ADOBE', 36.0: 'FINISHED WALLS: WOOD PLANKS / SHINGLES', 96.0: 'OTHER'}"
+HC6A,"Paint on HH walls, windows and doors",0.0,3,"{1.0: 'PAINT IN GOOD CONDITION ? NOT PEELING, CHIPPING OR CRACKING', 2.0: 'PAINT IN POOR CONDITION ? EVIDENCE OF PEELING, CHIPPING OR CRACKING', 3.0: 'NO PAINT ON WALLS, WINDOWS OR DOORS INSIDE THE HOME'}"
+HC7A,Household have: Fixed telephone line,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7B,Household have: Radio,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7C,Household have: Cot/Bed,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7D,Household have: Table/Chair,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7E,Household have: Almirah/wardrobe,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7F,Household have: Sofa set,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC7G,Household have: Water Filter/Dispenser,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC8,Household have electricity,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC8AA,Source of electricity for the household: National / Interconnected grid,0.0,2,"{'?': 'NO RESPONSE', 'A': 'NATIONAL / INTERCONNECTED GRID'}"
+HC8AB,Source of electricity for the household: Local mini grid,0.0,2,"{'?': 'NO RESPONSE', 'B': 'LOCAL MINI GRID'}"
+HC8AC,Source of electricity for the household: Solar home system,0.0,2,"{'?': 'NO RESPONSE', 'C': 'SOLAR HOME SYSTEM'}"
+HC8AD,Source of electricity for the household: Solar lantern,0.0,2,"{'?': 'NO RESPONSE', 'D': 'SOLAR LANTERN'}"
+HC8AE,Source of electricity for the household: Electric generator,0.0,2,"{'?': 'NO RESPONSE', 'E': 'ELECTRIC GENERATOR'}"
+HC8AF,Source of electricity for the household: Rechargeable battery,0.0,2,"{'?': 'NO RESPONSE', 'F': 'RECHARGEABLE BATTERY'}"
+HC8AG,Source of electricity for the household: Dry cell battery / torch,0.0,2,"{'?': 'NO RESPONSE', 'G': 'DRY CELL BATTERY / TORCH'}"
+HC8AX,Source of electricity for the household: Other,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHER'}"
+HC8AZ,Source of electricity for the household: DK,0.0,2,"{'?': 'NO RESPONSE', 'Z': 'DK'}"
+HC8ANR,Source of electricity for the household: No response,0.0,1,{'?': 'NO RESPONSE'}
+HC8B,Main source of electricity for the household,2.68,7,"{11.0: 'NATIONAL / INTERCONNECTED GRID', 21.0: 'LOCAL MINI GRID', 31.0: 'SOLAR HOME SYSTEM', 32.0: 'SOLAR LANTERN', 41.0: 'ELECTRIC GENERATOR', 51.0: 'RECHARGEABLE BATTERY', 52.0: 'DRY CELL BATTERY / TORCH', 96.0: 'OTHER', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC9A,Household have: Television,2.68,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9B,Household have: Refrigerator,2.68,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9C,Household have: Air conditioner,2.68,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9D,Household have: Washing machine,2.68,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9E,Household have: Electric water pump,2.68,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9F,Household have: Electric fan,2.68,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9G,Household have: Microwave oven,2.68,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC9H,Household have: Juicer/blender,2.68,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10A,Any member of household own: Wristwatch,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10B,Any member of household own: Bicycle,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10C,Any member of household own: Motorcycle or scooter,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10D,Any member of household own: Animal-drawn cart,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10E,"Any member of household own: Car, truck or van",0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10F,Any member of household own: Boat with motor,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10G,Any member of household own: Rickshaw/rickshaw-van,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10H,Any member of household own: Nasiman/kariman/votbati,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10I,Any member of household own: Easy bike/auto bike,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC10J,Any member of household own: Country Boat (without motor),0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC11,Any member have a computer,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC12,Any member have a mobile telephone,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC12A,Any member have a smartphone,1.61,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC13,Internet access at home,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC13B,Internet access via smart phone,94.2,4,"{1.0: 'YES, SMARTPHONE CAN ACCESS INTERNET AT HOME', 2.0: 'NO, SMARTPHONE CANNOT ACCESS INTERNET AT HOME', 8.0: 'DK IF SMARTPHONE CAN ACCESS INTERNET AT HOME', 9.0: 'NO RESPONSE'}"
+HC14,Household owns the dwelling,0.0,4,"{1.0: 'OWN', 2.0: 'RENT', 6.0: 'OTHER', 9.0: 'NO RESPONSE'}"
+HC15,Any household member own land that can be used for agriculture,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC16,Decimals of agricultural land members of household owns,65.3,248,"{995.0: '995+', 998.0: 'DK', 999.0: 'NO RESPONSE'}"
+HC17,Household own any animals,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC18A,Milk cows or bulls,35.81,21,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18B,Water buffalo/goail,35.81,7,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18C,"Horses, donkeys or mules",35.81,7,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18D,Goats,35.81,18,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18E,Sheep,35.81,12,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18F,Chickens,35.81,45,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18G,Pigs,35.81,9,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18H,Ducks/Turkey,35.81,45,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC18I,Pigeons,35.81,38,"{95.0: '95+', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HC19,Any household member own bank account,0.0,2,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+HC20,Any household member makes financial transactions via mobile phone,0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+EU1,Type of cookstove mainly used for cooking,0.0,11,"{1.0: 'SOLAR COOKER (THERMAL ENERGY, NOT SOLAR PANELS)', 2.0: 'ELECTRIC STOVE', 3.0: 'PIPED NATURAL GAS STOVE', 4.0: 'BIOGAS STOVE', 5.0: 'LIQUEFIED PETROLEUM GAS (LPG)/ COOKING GAS STOVE', 6.0: 'MANUFACTURED SOLID FUEL STOVE', 7.0: 'TRADITIONAL SOLID FUEL STOVE (NON-MANUFACTURED)', 8.0: 'LIQUID FUEL STOVE', 9.0: 'MOVEABLE FIREPAN', 10.0: 'THREE STONE STOVE / OPEN FIRE', 96.0: 'OTHER', 97.0: 'NO FOOD COOKED IN HOUSEHOLD', 99.0: 'NO RESPONSE'}"
+EU1A,Name of the stove brand,16.63,8,"{1.0: 'SHAKTI STOVE', 2.0: 'BANDHU STOVE', 3.0: 'IDCOL STOVE', 4.0: 'APON STOVE', 5.0: 'GRAMEEN SHAKTI STOVE', 6.0: 'EARTHERN STOVE (HAND MADE)', 96.0: 'OTHER', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+EU4,Type of energy source for cookstove,15.84,12,"{2.0: 'GASOLINE / DIESEL (NOT IN GENERATOR)', 3.0: 'KEROSENE / PARAFFIN', 4.0: 'COAL / LIGNITE UNPROCESSED', 5.0: 'COAL / LIGNITE BRIQUETTES / PELLETS', 6.0: 'CHARCOAL UNPROCESSED', 7.0: 'CHARCOAL BRIQUETTES / PELLETS', 8.0: 'WOOD', 9.0: 'AGRICULTURAL OR CROP RESIDUE / GRASS / STRAW / SHRUBS / CORN COBS', 10.0: 'ANIMAL DUNG / WASTE', 11.0: 'PROCESSED BIOMASS PELLETS / BRIQUETTES', 12.0: 'WOODCHIPS', 13.0: 'GARBAGE / PLASTIC', 14.0: 'SAWDUST', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+EU9,Type of lighting in household,0.0,13,"{1.0: 'ELECTRICITY (INCLUDING SOLAR PANELS AND GENERATOR)', 2.0: 'SOLAR-POWERED LANTERN OR FLASHLIGHT', 3.0: 'RECHARGEABLE FLASHLIGHT, MOBILE, TORCH OR LANTERN', 4.0: 'BATTERY POWERED FLASHLIGHT, TORCH OR LANTERN', 5.0: 'BIOGAS LAMP', 6.0: 'LIQUEFIED PETROLEUM GAS (LPG) LAMP', 7.0: 'GASOLINE LAMP', 8.0: 'KEROSENE / PARAFFIN LAMP', 9.0: 'OIL LAMP', 10.0: 'CANDLE', 11.0: 'OPEN FIRE', 96.0: 'OTHER', 97.0: 'NO LIGHTING IN HOUSEHOLD', 99.0: 'NO RESPONSE'}"
+ST2$1,Aware of (Mother and child benefit programme/vulnerable women benefit (VWB)),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$2,Aware of (Employment generation program for the poorest (EGPP)/ work for money(WFM)),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$3,Aware of (Food support(vulnerable group feeding (VGF) / food for work (FFW))),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$4,Aware of (Retirement pension for government employees and families),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$5,Aware of (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$6,Aware of (Disability allowance),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST2$7,Aware of (Any other external assistance programme),0.0,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+ST3$1,Received assistance through (Mother and child benefit programme/vulnerable women benefit (VWB)),14.27,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$2,Received assistance through (Employment generation program for the poorest (EGPP)/ work for money(WFM)),35.32,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$3,Received assistance through (Food support(vulnerable group feeding (VGF) / food for work (FFW))),24.31,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$4,Received assistance through (Retirement pension for government employees and families),11.5,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$5,Received assistance through (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),3.21,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$6,Received assistance through (Disability allowance),5.33,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST3$7,Received assistance through (Any other external assistance programme),74.5,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+ST4_1$1,Person 1 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),88.41,13,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$2,Person 1 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),98.63,8,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$3,Person 1 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),91.45,8,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$4,Person 1 the assistance intended: (Retirement pension for government employees and families),98.98,8,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$5,Person 1 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),86.84,18,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$6,Person 1 the assistance intended: (Disability allowance),96.13,13,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_1$7,Person 1 the assistance intended: (Any other external assistance programme),91.74,11,"{95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST4_2$1,Person 2 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),99.76,9,{}
+ST4_2$2,Person 2 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.93,3,{}
+ST4_2$3,Person 2 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),99.88,5,{}
+ST4_2$4,Person 2 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_2$5,Person 2 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),99.07,7,{}
+ST4_2$6,Person 2 the assistance intended: (Disability allowance),99.86,8,{}
+ST4_2$7,Person 2 the assistance intended: (Any other external assistance programme),99.75,6,{}
+ST4_3$1,Person 3 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),99.99,1,{}
+ST4_3$2,Person 3 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.99,1,{}
+ST4_3$3,Person 3 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_3$4,Person 3 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_3$5,Person 3 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),99.97,2,{}
+ST4_3$6,Person 3 the assistance intended: (Disability allowance),99.98,2,{}
+ST4_3$7,Person 3 the assistance intended: (Any other external assistance programme),99.95,4,{}
+ST4_4$1,Person 4 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_4$2,Person 4 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.99,1,{}
+ST4_4$3,Person 4 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_4$4,Person 4 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_4$5,Person 4 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_4$6,Person 4 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_4$7,Person 4 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST4_5$1,Person 5 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_5$2,Person 5 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.99,1,{}
+ST4_5$3,Person 5 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_5$4,Person 5 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_5$5,Person 5 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_5$6,Person 5 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_5$7,Person 5 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST4_6$1,Person 6 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_6$2,Person 6 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.99,1,{}
+ST4_6$3,Person 6 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_6$4,Person 6 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_6$5,Person 6 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_6$6,Person 6 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_6$7,Person 6 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST4_7$1,Person 7 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_7$2,Person 7 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST4_7$3,Person 7 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_7$4,Person 7 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_7$5,Person 7 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_7$6,Person 7 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_7$7,Person 7 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST4_8$1,Person 8 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_8$2,Person 8 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST4_8$3,Person 8 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_8$4,Person 8 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_8$5,Person 8 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_8$6,Person 8 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_8$7,Person 8 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST4_9$1,Person 9 the assistance intended: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST4_9$2,Person 9 the assistance intended: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST4_9$3,Person 9 the assistance intended: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST4_9$4,Person 9 the assistance intended: (Retirement pension for government employees and families),100.0,0,{}
+ST4_9$5,Person 9 the assistance intended: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST4_9$6,Person 9 the assistance intended: (Disability allowance),100.0,0,{}
+ST4_9$7,Person 9 the assistance intended: (Any other external assistance programme),100.0,0,{}
+ST5_1$1,Person 1 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),88.41,14,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$2,Person 1 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),98.63,11,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$3,Person 1 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),91.45,11,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$4,Person 1 the assistance received: (Retirement pension for government employees and families),99.08,10,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$5,Person 1 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),86.84,19,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$6,Person 1 the assistance received: (Disability allowance),96.13,14,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_1$7,Person 1 the assistance received: (Any other external assistance programme),91.74,12,"{0.0: 'NO ONE IN THIS HOUSEHOLD', 95.0: 'ALL MEMBERS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST5_2$1,Person 2 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),99.66,7,{}
+ST5_2$2,Person 2 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),99.94,4,{}
+ST5_2$3,Person 2 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),99.59,5,{}
+ST5_2$4,Person 2 the assistance received: (Retirement pension for government employees and families),99.99,1,{}
+ST5_2$5,Person 2 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),98.93,11,{}
+ST5_2$6,Person 2 the assistance received: (Disability allowance),99.66,8,{}
+ST5_2$7,Person 2 the assistance received: (Any other external assistance programme),99.44,7,{}
+ST5_3$1,Person 3 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_3$2,Person 3 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_3$3,Person 3 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),99.92,4,{}
+ST5_3$4,Person 3 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_3$5,Person 3 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),99.93,4,{}
+ST5_3$6,Person 3 the assistance received: (Disability allowance),99.97,3,{}
+ST5_3$7,Person 3 the assistance received: (Any other external assistance programme),99.84,6,{}
+ST5_4$1,Person 4 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_4$2,Person 4 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_4$3,Person 4 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_4$4,Person 4 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_4$5,Person 4 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),99.98,2,{}
+ST5_4$6,Person 4 the assistance received: (Disability allowance),99.99,1,{}
+ST5_4$7,Person 4 the assistance received: (Any other external assistance programme),99.94,3,{}
+ST5_5$1,Person 5 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_5$2,Person 5 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_5$3,Person 5 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_5$4,Person 5 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_5$5,Person 5 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),99.99,1,{}
+ST5_5$6,Person 5 the assistance received: (Disability allowance),100.0,0,{}
+ST5_5$7,Person 5 the assistance received: (Any other external assistance programme),99.99,1,{}
+ST5_6$1,Person 6 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_6$2,Person 6 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_6$3,Person 6 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_6$4,Person 6 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_6$5,Person 6 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST5_6$6,Person 6 the assistance received: (Disability allowance),100.0,0,{}
+ST5_6$7,Person 6 the assistance received: (Any other external assistance programme),100.0,0,{}
+ST5_7$1,Person 7 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_7$2,Person 7 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_7$3,Person 7 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_7$4,Person 7 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_7$5,Person 7 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST5_7$6,Person 7 the assistance received: (Disability allowance),100.0,0,{}
+ST5_7$7,Person 7 the assistance received: (Any other external assistance programme),100.0,0,{}
+ST5_8$1,Person 8 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_8$2,Person 8 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_8$3,Person 8 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_8$4,Person 8 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_8$5,Person 8 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST5_8$6,Person 8 the assistance received: (Disability allowance),100.0,0,{}
+ST5_8$7,Person 8 the assistance received: (Any other external assistance programme),100.0,0,{}
+ST5_9$1,Person 9 the assistance received: (Mother and child benefit programme/vulnerable women benefit (VWB)),100.0,0,{}
+ST5_9$2,Person 9 the assistance received: (Employment generation program for the poorest (EGPP)/ work for money(WFM)),100.0,0,{}
+ST5_9$3,Person 9 the assistance received: (Food support(vulnerable group feeding (VGF) / food for work (FFW))),100.0,0,{}
+ST5_9$4,Person 9 the assistance received: (Retirement pension for government employees and families),100.0,0,{}
+ST5_9$5,Person 9 the assistance received: (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),100.0,0,{}
+ST5_9$6,Person 9 the assistance received: (Disability allowance),100.0,0,{}
+ST5_9$7,Person 9 the assistance received: (Any other external assistance programme),100.0,0,{}
+ST6U$1,Last time assistance was received (unit) (Mother and child benefit programme/vulnerable women benefit (VWB)),88.41,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$2,Last time assistance was received (unit) (Employment generation program for the poorest (EGPP)/ work for money(WFM)),98.63,2,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$3,Last time assistance was received (unit) (Food support(vulnerable group feeding (VGF) / food for work (FFW))),91.45,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$4,Last time assistance was received (unit) (Retirement pension for government employees and families),98.98,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$5,Last time assistance was received (unit) (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),86.84,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$6,Last time assistance was received (unit) (Disability allowance),96.13,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6U$7,Last time assistance was received (unit) (Any other external assistance programme),91.74,3,"{1.0: 'MONTHS AGO', 2.0: 'YEARS AGO', 9.0: 'DK / NO RESPONSE'}"
+ST6N$1,Last time assistance was received (number) (Mother and child benefit programme/vulnerable women benefit (VWB)),88.41,20,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$2,Last time assistance was received (number) (Employment generation program for the poorest (EGPP)/ work for money(WFM)),98.63,16,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$3,Last time assistance was received (number) (Food support(vulnerable group feeding (VGF) / food for work (FFW))),91.45,16,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$4,Last time assistance was received (number) (Retirement pension for government employees and families),98.98,9,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$5,Last time assistance was received (number) (Allowances(old age /widow / freedom fighters /shaheed families .etc.)),86.84,13,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$6,Last time assistance was received (number) (Disability allowance),96.13,11,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+ST6N$7,Last time assistance was received (number) (Any other external assistance programme),91.74,17,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+WS1,Main source of drinking water,0.0,18,"{11.0: 'PIPED WATER: PIPED INTO DWELLING', 12.0: 'PIPED WATER: PIPED TO YARD / PLOT', 13.0: 'PIPED WATER: PIPED TO NEIGHBOUR', 14.0: 'PIPED WATER: PUBLIC TAP / STANDPIPE', 21.0: 'TUBE WELL / BOREHOLE (DEEP)', 22.0: 'TUBE WELL / BOREHOLE (SHALLOW)', 31.0: 'DUG WELL: PROTECTED WELL', 32.0: 'DUG WELL: UNPROTECTED WELL', 41.0: 'SPRING: PROTECTED SPRING', 42.0: 'SPRING: UNPROTECTED SPRING', 51.0: 'RAINWATER', 61.0: 'TANKER-TRUCK', 71.0: 'CART WITH SMALL TANK', 72.0: 'WATER KIOSK (WATER SELLING PLANT)', 81.0: 'SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)', 91.0: 'PACKAGED WATER: BOTTLED WATER', 92.0: 'PACKAGED WATER: SACHET WATER', 93.0: 'LARGE BOTTLE / DISPENSER REFILL', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+WS2,Main source of water used for other purposes (if bottled water used for drinking),99.27,10,"{11.0: 'PIPED WATER: PIPED INTO DWELLING', 12.0: 'PIPED WATER: PIPED TO YARD / PLOT', 13.0: 'PIPED WATER: PIPED TO NEIGHBOUR', 14.0: 'PIPED WATER: PUBLIC TAP / STANDPIPE', 21.0: 'TUBE WELL / BOREHOLE (DEEP)', 22.0: 'TUBE WELL / BOREHOLE (SHALLOW)', 31.0: 'DUG WELL: PROTECTED WELL', 32.0: 'DUG WELL: UNPROTECTED WELL', 41.0: 'SPRING: PROTECTED SPRING', 42.0: 'SPRING: UNPROTECTED SPRING', 51.0: 'RAINWATER', 61.0: 'TANKER-TRUCK', 71.0: 'CART WITH SMALL TANK', 72.0: 'WATER KIOSK (WATER SELLING PLANT)', 81.0: 'SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+WS3,Location of the water source,17.58,3,"{1.0: 'IN OWN DWELLING', 2.0: 'IN OWN YARD / PLOT', 3.0: 'ELSEWHERE', 9.0: 'NO RESPONSE'}"
+WS4,Time (in minutes) to get water and come back,82.04,49,"{0.0: 'MEMBERS DO NOT COLLECT', 998.0: 'DK', 999.0: 'NO RESPONSE'}"
+WS5,Person collecting water,82.42,10,{99.0: 'NO RESPONSE'}
+WS6,Number of times person collected water in the last seven days,82.42,46,"{98.0: 'DK', 99.0: 'NO RESPONSE'}"
+WS7,There been any time in the last month without sufficient water,0.0,3,"{1.0: 'YES, AT LEAST ONCE', 2.0: 'NO, ALWAYS SUFFICIENT', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS7A,Sufficient drinking water availability in the last 12 months,10.19,4,"{1.0: 'YES, AT LEAST ONCE', 2.0: 'NO, ALWAYS SUFFICIENT', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS8,Main reason without sufficient water,76.72,6,"{1.0: 'WATER SOURCE NOT FUNCTIONAL', 2.0: 'WATER NOT AVAILABLE', 3.0: 'WATER TOO EXPENSIVE', 4.0: 'WATER SOURCE NOT ACCESSIBLE', 6.0: 'OTHER', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS9,Treat water to make safer for drinking,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10A,Water treatment: Boil,0.0,2,"{'?': 'NO RESPONSE', 'A': 'BOIL'}"
+WS10B,Water treatment: Add bleach/chlorine,0.0,2,"{'?': 'NO RESPONSE', 'B': 'ADD BLEACH / CHLORINE'}"
+WS10C,Water treatment: Strain it through a cloth,0.0,2,"{'?': 'NO RESPONSE', 'C': 'STRAIN IT THROUGH A CLOTH'}"
+WS10D,Water treatment: Use water filter,0.0,2,"{'?': 'NO RESPONSE', 'D': 'USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)'}"
+WS10E,Water treatment: Solar disinfection,0.0,2,"{'?': 'NO RESPONSE', 'E': 'SOLAR DISINFECTION'}"
+WS10F,Water treatment: Let it stand and settle,0.0,2,"{'?': 'NO RESPONSE', 'F': 'LET IT STAND AND SETTLE'}"
+WS10X,Water treatment: Other,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHER'}"
+WS10Z,Water treatment: DK,0.0,2,"{'?': 'NO RESPONSE', 'Z': 'DK'}"
+WS10NR,Water treatment: No response,0.0,1,{'?': 'NO RESPONSE'}
+WS10AA,Water supply management entity,0.0,6,"{1.0: 'OWN HOUSEHOLD', 2.0: 'LOCAL OR OWNER OF THE HOUSE OR APARTMENT/FLAT AUTHORITY', 3.0: 'A PUBLIC OR PRIVATE UTILITY', 4.0: 'COMMUNITY ORGANISATION', 6.0: 'OTHERS', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10BB,Consistency of main drinking water source in wet season,0.0,4,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10CC,Main drinking water source in wet season,96.51,12,"{11.0: 'PIPED WATER: PIPED INTO DWELLING', 12.0: 'PIPED WATER: PIPED TO YARD / PLOT', 13.0: 'PIPED WATER: PIPED TO NEIGHBOUR', 14.0: 'PIPED WATER: PUBLIC TAP / STANDPIPE', 21.0: 'TUBE WELL WITH DEEP BOREHOLE', 22.0: 'TUBE WELL WITH SHALLOW BOREHOLE', 31.0: 'DUG WELL: PROTECTED WELL', 32.0: 'DUG WELL: UNPROTECTED WELL', 41.0: 'SPRING: PROTECTED SPRING', 42.0: 'SPRING: UNPROTECTED SPRING', 51.0: 'RAINWATER', 61.0: 'TANKER-TRUCK', 71.0: 'CART WITH SMALL TANK', 72.0: 'WATER KIOSK (WATER SELLING PLANT)', 81.0: 'SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)', 91.0: 'PACKAGED WATER: BOTTLED WATER', 92.0: 'PACKAGED WATER: SACHET WATER', 93.0: 'LARGE BOTTLE / DISPENSER REFILL', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+WS10DD,Location of the water source that is used during wet season,96.92,3,"{1.0: 'IN OWN DWELLING', 2.0: 'IN OWN YARD / PLOT', 3.0: 'ELSEWHERE', 9.0: 'NO RESPONSE'}"
+WS10EE,Time (in minutes) to get water and come back from the water source that is used during wet season,99.45,19,"{0.0: 'MEMBERS DO NOT COLLECT', 998.0: 'DK', 999.0: 'NO RESPONSE'}"
+WS10FA,Experienced natural hazards/events: Flood,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FA1,Affected by natural hazards/events: Flood,80.97,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FB,Experienced natural hazards/events: Drought,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FB1,Affected by natural hazards/events: Drought,88.14,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FC,Experienced natural hazards/events: Windstorm/Cyclone,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FC1,Affected by natural hazards/events: Windstorm/Cyclone,84.38,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FD,Experienced natural hazards/events: Tidal Surge,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FD1,Affected by natural hazards/events: Tidal Surge,98.06,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FE,Experienced natural hazards/events: Landslide,0.0,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FE1,Affected by natural hazards/events: Landslide,99.43,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FF,Experienced natural hazards/events: Other events,0.0,4,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10FF1,Affected by natural hazards/events: Other events,99.38,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10H,Continue using the main drinking water source during the hazard/event,65.75,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10IA,Alternate source of drinking water during the nutrual hazards period: Piped into dwelling,0.0,2,"{'?': 'NO RESPONSE', 'A': 'PIPED WATER: PIPED INTO DWELLING'}"
+WS10IB,Alternate source of drinking water during the nutrual hazards period: Piped to yard / plot,0.0,2,"{'?': 'NO RESPONSE', 'B': 'PIPED WATER: PIPED TO YARD / PLOT'}"
+WS10IC,Alternate source of drinking water during the nutrual hazards period: Piped to neighbour,0.0,2,"{'?': 'NO RESPONSE', 'C': 'PIPED WATER: PIPED TO NEIGHBOUR'}"
+WS10ID,Alternate source of drinking water during the nutrual hazards period: Public tap / standpipe,0.0,2,"{'?': 'NO RESPONSE', 'D': 'PIPED WATER: PUBLIC TAP / STANDPIPE'}"
+WS10IE,Alternate source of drinking water during the nutrual hazards period: Tube well / borehole (Deep),0.0,2,"{'?': 'NO RESPONSE', 'E': 'TUBE WELL WITH BOREHOLE (DEEP )'}"
+WS10IF,Alternate source of drinking water during the nutrual hazards period: Tube well / borehole (Shallow),0.0,2,"{'?': 'NO RESPONSE', 'F': 'TUBE WELL WITH BOREHOLE (SHALLOW)'}"
+WS10IG,Alternate source of drinking water during the nutrual hazards period: Protected well,0.0,2,"{'?': 'NO RESPONSE', 'G': 'DUG WELL: PROTECTED WELL'}"
+WS10IH,Alternate source of drinking water during the nutrual hazards period: Unprotected well,0.0,2,"{'?': 'NO RESPONSE', 'H': 'DUG WELL: UNPROTECTED WELL'}"
+WS10II,Alternate source of drinking water during the nutrual hazards period: Protected spring,0.0,1,"{'?': 'NO RESPONSE', 'I': 'SPRING: PROTECTED SPRING'}"
+WS10IJ,Alternate source of drinking water during the nutrual hazards period: Unprotected spring,0.0,2,"{'?': 'NO RESPONSE', 'J': 'SPRING: UNPROTECTED SPRING'}"
+WS10IK,Alternate source of drinking water during the nutrual hazards period: Rainwater,0.0,2,"{'?': 'NO RESPONSE', 'K': 'RAINWATER'}"
+WS10IL,Alternate source of drinking water during the nutrual hazards period: Tanker-truck,0.0,2,"{'?': 'NO RESPONSE', 'L': 'TANKER-TRUCK'}"
+WS10IM,Alternate source of drinking water during the nutrual hazards period: Cart with small tank,0.0,2,"{'?': 'NO RESPONSE', 'M': 'CART WITH SMALL TANK'}"
+WS10IN,Alternate source of drinking water during the nutrual hazards period: Water kiosk (water selling plant),0.0,2,"{'?': 'NO RESPONSE', 'N': 'WATER KIOSK (WATER SELLING PLANT)'}"
+WS10IO,"Alternate source of drinking water during the nutrual hazards period: Surface water (river, dam, lake, pond, stream, canal, irrigation channel)",0.0,2,"{'?': 'NO RESPONSE', 'O': 'SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)'}"
+WS10IP,Alternate source of drinking water during the nutrual hazards period: Bottled water,0.0,2,"{'?': 'NO RESPONSE', 'P': 'PACKAGED WATER: BOTTLED WATER'}"
+WS10IQ,Alternate source of drinking water during the nutrual hazards period: Sachet water,0.0,2,"{'?': 'NO RESPONSE', 'Q': 'PACKAGED WATER: SACHET WATER'}"
+WS10IR,Alternate source of drinking water during the nutrual hazards period: Large bottle / dispenser refill,0.0,2,"{'?': 'NO RESPONSE', 'R': 'LARGE BOTTLE / DISPENSER REFILL'}"
+WS10IX,Alternate source of drinking water during the nutrual hazards period: Other,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHER'}"
+WS10INR,Alternate source of drinking water during the nutrual hazards period: No response,0.0,1,{'?': 'NO RESPONSE'}
+WS10J,Know of measures on protect main source of drinking water from natural hazards,0.0,4,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10KA,Know protecting main drinking water source from natural hazard by: Raising of the platform,0.0,3,"{'?': 'NO RESPONSE', 'A': 'RAISING OF THE PLATFORM'}"
+WS10KB,Know protecting main drinking water source from natural hazard by: Fencing of the water source,0.0,3,"{'?': 'NO RESPONSE', 'B': 'FENCING OF THE WATER SOURCE'}"
+WS10KC,Know protecting main drinking water source from natural hazard by: Conservation of water,0.0,3,"{'?': 'NO RESPONSE', 'C': 'CONSERVATION OF WATER'}"
+WS10KD,Know protecting main drinking water source from natural hazard by: Protection of catchment area,0.0,3,"{'?': 'NO RESPONSE', 'D': 'PROTECTION OF CATCHMENT AREA'}"
+WS10KX,Know protecting main drinking water source from natural hazard by: Others,0.0,3,"{'?': 'NO RESPONSE', 'X': 'OTHERS'}"
+WS10KNR,Know protecting main drinking water source from natural hazard by: No response,0.0,2,{'?': 'NO RESPONSE'}
+WS10L,Anything been done to protect from natural hazards,0.0,4,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS10MA,Protecting main drinking water source from natural hazard by: Raising of the platform,0.0,2,"{'?': 'NO RESPONSE', 'A': 'RAISING OF THE PLATFORM'}"
+WS10MB,Protecting main drinking water source from natural hazard by: Fencing of the water source,0.0,2,"{'?': 'NO RESPONSE', 'B': 'FENCING OF THE WATER SOURCE'}"
+WS10MC,Protecting main drinking water source from natural hazard by: Conservation of water,0.0,2,"{'?': 'NO RESPONSE', 'C': 'CONSERVATION OF WATER'}"
+WS10MD,Protecting main drinking water source from natural hazard by: Protection of catchment area,0.0,2,"{'?': 'NO RESPONSE', 'D': 'PROTECTION OF CATCHMENT AREA'}"
+WS10MX,Protecting main drinking water source from natural hazard by: Others,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHERS'}"
+WS10MNR,Protecting main drinking water source from natural hazard by: No response,0.0,1,{'?': 'NO RESPONSE'}
+WS11,Type of toilet facility,0.0,15,"{11.0: 'FLUSH / POUR FLUSH: FLUSH TO PIPED SEWER SYSTEM', 12.0: 'FLUSH / POUR FLUSH: FLUSH TO SEPTIC TANK', 13.0: 'FLUSH / POUR FLUSH: FLUSH TO PIT/CESSPOOL', 14.0: 'FLUSH / POUR FLUSH: FLUSH TO OPEN DRAIN', 15.0: 'FLUSH / POUR FLUSH: FLUSH TO COVERED DRAIN', 18.0: 'FLUSH / POUR FLUSH: FLUSH TO DK WHERE', 21.0: 'PIT LATRINE: VENTILATED IMPROVED PIT LATRINE (WITH SLAB)', 22.0: 'PIT LATRINE: SINGLE PIT LATRINE WITH SLAB', 23.0: 'PIT LATRINE: PIT LATRINE WITHOUT SLAB / OPEN PIT', 24.0: 'PIT LATRINE: TWIN PIT LATRINE WITH SLAB', 31.0: 'COMPOSTING TOILET', 32.0: 'CONTAINER BASED SANITATION', 41.0: 'BUCKET', 51.0: 'HANGING TOILET / HANGING LATRINE', 95.0: 'NO FACILITY / BUSH / FIELD', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+WS11B,Outlet pipe for liquid waste,58.13,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11C,Destination of outlet pipe for liquid waste,91.79,8,"{11.0: 'TO A LEACH FIELD, SOAK PIT', 21.0: 'TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WASTEWATER TREATMENT PLANT (WWTP)', 22.0: 'TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WATERBODY (NOT CONNECTED TO WWTP)', 23.0: 'TO A SEWER / CLOSED DRAIN THAT LEADS TO: DK WHERE', 31.0: 'TO AN OPEN DRAIN', 32.0: 'TO A WATERBODY / SURFACE', 96.0: 'OTHER', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+WS11DA,Excreta release events of toilet facility: Overflowed,1.46,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11DB,Excreta release events of toilet facility: Flooded,1.46,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11DC,Excreta release events of toilet facility: Containment collapsed,1.46,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11DD,Excreta release events of toilet facility: Other event,1.46,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FA,Experienced one or more natural hazards/events of toilet facility:  Flood,92.5,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FB,Experienced one or more natural hazards/events of toilet facility: Drought,97.48,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FC,Experienced one or more natural hazards/events of toilet facility: Windstorm/Cyclone,96.5,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FD,Experienced one or more natural hazards/events of toilet facility: Tidal Surge,99.43,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FE,Experienced one or more natural hazards/events of toilet facility: : Landslide,99.83,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11FF,Experienced one or more natural hazards/events of toilet facility: : Other events,99.8,2,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11G,Continue using the toilet facility during the hazard/event,90.18,3,"{1.0: 'YES, CONTINUED TO USE TOILET FACILITY', 2.0: 'NO, TOILET FACILITY NO LONGER USABLE', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11G1A,Alternatives option to use during the hazards period: Flush to piped sewer system,0.0,2,"{'?': 'NO RESPONSE', 'A': 'FLUSH / POUR FLUSH: FLUSH TO PIPED SEWER SYSTEM'}"
+WS11G1B,Alternatives option to use during the hazards period: Flush to septic tank,0.0,2,"{'?': 'NO RESPONSE', 'B': 'FLUSH / POUR FLUSH: FLUSH TO SEPTIC TANK'}"
+WS11G1C,Alternatives option to use during the hazards period: Flush to pit/cesspool latrine,0.0,2,"{'?': 'NO RESPONSE', 'C': 'FLUSH / POUR FLUSH: FLUSH TO PIT//CESSPOOL LATRINE'}"
+WS11G1D,Alternatives option to use during the hazards period: Flush to open drain,0.0,2,"{'?': 'NO RESPONSE', 'D': 'FLUSH / POUR FLUSH: FLUSH TO OPEN DRAIN'}"
+WS11G1E,Alternatives option to use during the hazards period: Flush to covered drain,0.0,2,"{'?': 'NO RESPONSE', 'E': 'FLUSH / POUR FLUSH: FLUSH TO COVERED DRAIN'}"
+WS11G1F,Alternatives option to use during the hazards period: Flush to DK where,0.0,2,"{'?': 'NO RESPONSE', 'F': 'PIT LATRINE: DK WHERE'}"
+WS11G1G,Alternatives option to use during the hazards period: Ventilated improved pit latrine (with slab),0.0,2,"{'?': 'NO RESPONSE', 'G': 'PIT LATRINE: VENTILATED IMPROVED PIT LATRINE (WITH SLAB)'}"
+WS11G1H,Alternatives option to use during the hazards period: Single pit latrine with slab,0.0,2,"{'?': 'NO RESPONSE', 'H': 'PIT LATRINE: SINGLE PIT LATRINE WITH SLAB'}"
+WS11G1I,Alternatives option to use during the hazards period: Pit latrine without slab/open pit,0.0,2,"{'?': 'NO RESPONSE', 'I': 'PIT LATRINE: PIT LATRINE WITHOUT SLAB / OPEN PIT'}"
+WS11G1J,Alternatives option to use during the hazards period: Twin pit latrine with slab,0.0,2,"{'?': 'NO RESPONSE', 'J': 'TWIN PIT LATRINE WITH SLAB'}"
+WS11G1K,Alternatives option to use during the hazards period: Composting toilet,0.0,2,"{'?': 'NO RESPONSE', 'K': 'COMPOSTING TOILET'}"
+WS11G1L,Alternatives option to use during the hazards period: Container based sanitation,0.0,2,"{'?': 'NO RESPONSE', 'L': 'CONTAINER BASED SANITATION'}"
+WS11G1M,Alternatives option to use during the hazards period: Bucket,0.0,2,"{'?': 'NO RESPONSE', 'M': 'BUCKET HANGING TOILET / HANGING LATRINE'}"
+WS11G1N,Alternatives option to use during the hazards period: Hanging toilet/hanging latrine,0.0,2,"{'?': 'NO RESPONSE', 'N': 'HANGING TOILET / HANGING LATRINE'}"
+WS11G1X,Alternatives option to use during the hazards period: Other,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHER'}"
+WS11G1Y,Alternatives option to use during the hazards period: No facility/bush/field,0.0,2,"{'?': 'NO RESPONSE', 'Y': 'NO FACILITY / BUSH / FIELD'}"
+WS11G1NR,Alternatives option to use during the hazards period: No response,0.0,1,{'?': 'NO RESPONSE'}
+WS11H,Know measures on protect toilet/latrine from natural hazards,1.46,4,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11IA,Know protecting toilet/latrine from natural hazard by: Raising of the platform,0.0,3,"{'?': 'NO RESPONSE', 'A': 'RAISING OF THE PLATFORM'}"
+WS11IB,Know protecting toilet/latrine from natural hazard by: Use of protective parapet on the roof,0.0,3,"{'?': 'NO RESPONSE', 'B': 'USE OF PROTECTIVE PARAPET ON THE ROOF'}"
+WS11IC,Know protecting toilet/latrine from natural hazard by: Use of watertight pits/septic tanks,0.0,3,"{'?': 'NO RESPONSE', 'C': 'USE OF WATERTIGHT PITS/SEPTIC TANKS'}"
+WS11ID,Know protecting toilet/latrine from natural hazard by: Use of adaptive technologies,0.0,3,"{'?': 'NO RESPONSE', 'D': 'USE OF ADAPTIVE TECHNOLOGIES'}"
+WS11IE,Know protecting toilet/latrine from natural hazard by: Construction of durable toilet,0.0,3,"{'?': 'NO RESPONSE', 'E': 'CONSTRUCTION OF DURABLE TOILET'}"
+WS11IF,Know protecting toilet/latrine from natural hazard by: Providing of alternate latrine,0.0,3,"{'?': 'NO RESPONSE', 'F': 'PROVIDING OF ALTERNATE LATRINE'}"
+WS11IX,Know protecting toilet/latrine from natural hazard by: Others,0.0,3,"{'?': 'NO RESPONSE', 'X': 'OTHERS'}"
+WS11INR,Know protecting toilet/latrine from natural hazard by: No response,0.0,2,{'?': 'NO RESPONSE'}
+WS11J,Anything been done to protect toilet/latrine from natural hazards,1.46,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS11KA,Protecting toilet/latrine from natural hazard by: Raising of the platform,0.0,2,"{'?': 'NO RESPONSE', 'A': 'RAISING OF THE PLATFORM'}"
+WS11KB,Protecting toilet/latrine from natural hazard by: Use of protective parapet on the roof,0.0,2,"{'?': 'NO RESPONSE', 'B': 'USE OF PROTECTIVE PARAPET ON THE ROOF'}"
+WS11KC,Protecting toilet/latrine from natural hazard by: Use of watertight pits/septic tanks,0.0,2,"{'?': 'NO RESPONSE', 'C': 'USE OF WATERTIGHT PITS/SEPTIC TANKS'}"
+WS11KD,Protecting toilet/latrine from natural hazard by: Use of adaptive technologies,0.0,2,"{'?': 'NO RESPONSE', 'D': 'USE OF ADAPTIVE TECHNOLOGIES'}"
+WS11KE,Protecting toilet/latrine from natural hazard by: Construction of durable toilet,0.0,2,"{'?': 'NO RESPONSE', 'E': 'CONSTRUCTION OF DURABLE TOILET'}"
+WS11KF,Protecting toilet/latrine from natural hazard by: Providing of alternate latrine,0.0,2,"{'?': 'NO RESPONSE', 'F': 'PROVIDING OF ALTERNATE LATRINE'}"
+WS11KX,Protecting toilet/latrine from natural hazard by: Others,0.0,2,"{'?': 'NO RESPONSE', 'X': 'OTHERS'}"
+WS11KZ,Protecting toilet/latrine from natural hazard by: DK,0.0,1,"{'?': 'NO RESPONSE', 'Z': 'DK'}"
+WS11KNR,Protecting toilet/latrine from natural hazard by: No response,0.0,2,{'?': 'NO RESPONSE'}
+WS12,Pit latrine or septic tank ever been emptied,1.46,8,"{1.0: 'YES, EMPTIED: WITHIN THE LAST 5 YEARS', 2.0: 'YES, EMPTIED: MORE THAN 5 YEARS AGO', 3.0: 'YES, EMPTIED: DON?T KNOW WHEN', 4.0: 'NO, NEVER EMPTIED', 5.0: 'NO, NOT EMPTIED BUT COVERED AND LEFT UNDISTURBED WHEN FULL', 6.0: 'NO, THIS SYSTEM DOESN?T REQUIRE EMPTYING', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+WS12A,Entity responsible for the last emptying of water source,57.33,8,"{11.0: 'SERVICE PROVIDER: PUBLIC / MUNICIPALITY / GOVERNMENT', 12.0: 'SERVICE PROVIDER: PRIVATE COMPANY / NGO', 13.0: 'SERVICE PROVIDER: INFORMAL EMPTIER (E.G., UNLICENSED)', 21.0: 'NOT SERVICE PROVIDER: SELF EMPTIED', 22.0: 'NOT SERVICE PROVIDER: NEIGHBOUR, FAMILY MEMBER, FRIEND', 96.0: 'OTHER', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+WS13,Place the contents were emptied,57.33,7,"{1.0: 'REMOVED OFF-SITE (TO TREATMENT / UNKNOWN)', 2.0: 'REMOVED TO A WATERBODY, OPEN', 3.0: 'BURIED IN A COVERED PIT AT OR NEAR HOUSEHOLD (IN-SITU)', 4.0: 'BURIED IN A COVERED PIT / TRENCH ELSEWHERE (OFF-SITE)', 5.0: 'EMPTIED INTO AN UNCOVERED PIT', 6.0: 'OTHER', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WS14,Location of the toilet faciltity,0.5,3,"{1.0: 'IN OWN DWELLING', 2.0: 'IN OWN YARD / PLOT', 3.0: 'ELSEWHERE', 9.0: 'NO RESPONSE'}"
+WS15,Toilet facility shared,0.5,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+WS16,Toilet shared with other household or with general public,73.72,2,"{1.0: 'SHARED WITH KNOWN HOUSEHOLDS (NOT PUBLIC)', 2.0: 'SHARED WITH GENERAL PUBLIC', 9.0: 'NO RESPONSE'}"
+WS17,Households using this toilet facility,74.31,9,"{2.0: 'TWO', 3.0: 'THREE', 4.0: 'FOUR', 5.0: 'FIVE', 6.0: 'SIX', 7.0: 'SEVEN', 8.0: 'EIGHT', 9.0: 'NINE', 10.0: 'TEN OR MORE HOUSEHOLDS', 98.0: 'DK', 99.0: 'NO RESPONSE'}"
+HW1,Place where household members most often wash their hands,0.0,6,"{1.0: 'OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN DWELLING', 2.0: 'OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN YARD /PLOT', 3.0: 'MOBILE OBJECT OBSERVED (BUCKET / JUG / KETTLE)', 4.0: 'NOT OBSERVED: NO HANDWASHING PLACE IN DWELLING / YARD / PLOT', 5.0: 'NOT OBSERVED: NO PERMISSION TO SEE', 6.0: 'OTHER REASON'}"
+HW2,Water available at the place for handwashing,8.37,2,"{1.0: 'WATER IS AVAILABLE', 2.0: 'WATER IS NOT AVAILABLE'}"
+HW3A,Bar soap,0.0,2,{'A': 'BAR OR LIQUID SOAP'}
+HW3B,Detergent (Powder / Liquid / Paste),0.0,2,{'B': 'DETERGENT (POWDER / LIQUID / PASTE)'}
+HW3C,Ash / Mud / Sand,0.0,2,{'C': 'ASH'}
+HW3D,Mud / Sand,0.0,2,{'D': 'MUD / SAND'}
+HW3Y,None of these present,0.0,2,{'Y': 'NONE OF THESE PRESENT'}
+HW4A,"House or yard have a bathtub, shower",0.0,5,"{1.0: 'YES, IN THE DWELLING', 2.0: 'YES, IN THE YARD OR PLOT', 3.0: 'NO,  ELSEWHERE', 4.0: 'NO, NONE', 9.0: 'NO RESPONSE'}"
+HW5A,Water available for a bathtub or a shower,13.72,3,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+SA1,Salt iodization test outcome,0.0,5,"{1.0: 'SALT TESTED: 0 PPM (NO REACTION)', 2.0: 'SALT TESTED: BELOW 15 PPM (BETWEEN 0 AND 15 PPM)', 3.0: 'SALT TESTED: ABOVE 15 PPM (AT LEAST 15 PPM)', 4.0: 'SALT NOT TESTED: NO SALT IN THE HOUSE', 6.0: 'SALT NOT TESTED: OTHER REASON', 9.0: 'NO RESPONSE'}"
+SA2,Salt iodization recheck test outcome,69.57,3,"{1.0: 'SALT TESTED: 0 PPM (NO REACTION)', 2.0: 'SALT TESTED: BELOW 15 PPM (BETWEEN 0 AND 15 PPM)', 3.0: 'SALT TESTED: ABOVE 15 PPM (AT LEAST 15 PPM)', 6.0: 'SALT NOT TESTED: OTHER REASON', 9.0: 'NO RESPONSE'}"
+HH44H$1,Confirm shared number,4.15,1,"{1.0: 'YES', 2.0: 'NO'}"
+HH44H$2,Confirm shared number,90.16,1,"{1.0: 'YES', 2.0: 'NO'}"
+HH44H$3,Confirm shared number,99.56,1,"{1.0: 'YES', 2.0: 'NO'}"
+HH44H$4,Confirm shared number,100.0,0,"{1.0: 'YES', 2.0: 'NO'}"
+HH44H$5,Confirm shared number,100.0,0,"{1.0: 'YES', 2.0: 'NO'}"
+HH44I$1,Another personal or shared phone number where can be reached,4.15,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH44I$2,Another personal or shared phone number where can be reached,90.16,2,"{1.0: 'YES', 2.0: 'NO'}"
+HH44I$3,Another personal or shared phone number where can be reached,99.56,1,"{1.0: 'YES', 2.0: 'NO'}"
+HH44I$4,Another personal or shared phone number where can be reached,100.0,0,"{1.0: 'YES', 2.0: 'NO'}"
+HH44I$5,Another personal or shared phone number where can be reached,100.0,0,"{1.0: 'YES', 2.0: 'NO'}"
+WQ1,Cluster number,89.47,1016,{}
+WQ2,Household number,89.47,20,{}
+WQ3,Measurer number,89.47,41,{}
+WQ4,Interviewer number,89.47,203,{}
+WQ5D,Day of water quality test,89.47,31,{}
+WQ5M,Month of water quality test,89.47,5,"{1.0: 'JANUARY', 2.0: 'FEBRUARY', 3.0: 'MARCH', 4.0: 'APRIL', 5.0: 'MAY', 6.0: 'JUNE', 7.0: 'JULY', 8.0: 'AUGUST', 9.0: 'SEPTEMBER', 10.0: 'OCTOBER', 11.0: 'NOVEMBER', 12.0: 'DECEMBER'}"
+WQ5Y,Year of water quality test,89.47,1,"{2024.0: '2024', 2025.0: '2025'}"
+WQ6,HH selected for blank testing,89.47,2,"{1.0: 'YES', 2.0: 'NO'}"
+WQ7,Respondent to WQT questionnaire,89.47,10,{}
+WQ8,Consent for water quality test,89.47,1,"{1.0: 'YES, PERMISSION IS GIVEN', 2.0: 'NO, PERMISSION IS NOT GIVEN'}"
+WQ31,Result of water quality test,89.47,1,"{1.0: 'COMPLETED', 2.0: 'PERMISSION NOT GIVEN', 3.0: 'GLASS OF WATER NOT GIVEN', 4.0: 'PARTLY COMPLETED', 96.0: 'OTHER'}"
+WQ10H,Start of water quality test - Hour,89.47,13,{}
+WQ10M,Start of water quality test - Minutes,89.47,60,{}
+WQ23H,End of water quality test - Hour,89.47,15,{}
+WQ23M,End of water quality test - Minutes,89.47,60,{}
+WQ11,A glass of water that you would give to a child to drink was provided,89.47,1,"{1.0: 'YES', 2.0: 'NO', 9.0: 'NO RESPONSE'}"
+WQ12,Water was collected from the source,89.47,4,"{1.0: 'DIRECT FROM SOURCE', 2.0: 'COVERED CONTAINER', 3.0: 'UNCOVERED CONTAINER', 8.0: 'UNABLE TO OBSERVE'}"
+WQ12A,Water was collected from the source,99.8,3,"{1.0: 'DIRECT FROM SOURCE', 2.0: 'COVERED CONTAINER', 3.0: 'UNCOVERED CONTAINER'}"
+WQ14,Done anything to the water to make it safer to drink,89.47,3,"{1.0: 'YES', 2.0: 'NO', 8.0: 'DK', 9.0: 'NO RESPONSE'}"
+WQ15A,Water treatment: Boil,0.0,2,"{'?': 'NO RESPONSE', 'A': 'BOIL'}"
+WQ15B,Water treatment: Add bleach/chlorine,0.0,2,"{'?': 'NO RESPONSE', 'B': 'ADD BLEACH / CHLORINE'}"
+WQ15C,Water treatment: Strain it through a cloth,0.0,2,"{'?': 'NO RESPONSE', 'C': 'STRAIN IT THROUGH A CLOTH'}"
+WQ15D,Water treatment: Use water filter,0.0,2,"{'?': 'NO RESPONSE', 'D': 'USE WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)'}"
+WQ15E,Water treatment: Solar disinfection,0.0,1,"{'?': 'NO RESPONSE', 'E': 'SOLAR DISINFECTION'}"
+WQ15F,Water treatment: Let it stand and settle,0.0,1,"{'?': 'NO RESPONSE', 'F': 'LET IT STAND AND SETTLE'}"
+WQ15X,Water treatment: Other,0.0,1,"{'?': 'NO RESPONSE', 'X': 'OTHER'}"
+WQ15Z,Water treatment: DK,0.0,2,"{'?': 'NO RESPONSE', 'Z': 'DK'}"
+WQ15NR,Water treatment: No response,0.0,1,{'?': 'NO RESPONSE'}
+WQ17,Source of water where the glass of water was collected,89.47,13,"{11.0: 'PIPED WATER: PIPED INTO DWELLING', 12.0: 'PIPED WATER: PIPED TO YARD / PLOT', 13.0: 'PIPED WATER: PIPED TO NEIGHBOUR', 14.0: 'PIPED WATER: PUBLIC TAP / STANDPIPE', 21.0: 'TUBE WELL WITH DEEP BOREHOLE', 22.0: 'TUBE WELL WITH SHALLOW BOREHOLE', 31.0: 'DUG WELL: PROTECTED WELL', 32.0: 'DUG WELL: UNPROTECTED WELL', 41.0: 'SPRING: PROTECTED SPRING', 42.0: 'SPRING: UNPROTECTED SPRING', 51.0: 'RAINWATER', 61.0: 'TANKER-TRUCK', 71.0: 'CART WITH SMALL TANK', 72.0: 'WATER KIOSK (WATER SELLING PLANT)', 81.0: 'SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)', 91.0: 'PACKAGED WATER: BOTTLED WATER', 92.0: 'PACKAGED WATER: SACHET WATER', 93.0: 'LARGE BOTTLE / DISPENSER REFILL', 96.0: 'OTHER', 99.0: 'NO RESPONSE'}"
+WQ18,Main source of water was shown,89.47,2,"{1.0: 'YES, SHOWN OR TOLD', 2.0: 'NO, UNABLE TO SHOW OR TELL', 9.0: 'NO RESPONSE'}"
+WQ19,Source water sample collected,89.56,3,"{1.0: 'SOURCE WATER COLLECTED', 2.0: 'NO WATER AVAILABLE AT SOURCE', 3.0: 'WATER SOURCE TOO FAR', 4.0: 'UNABLE TO ACCESS SOURCE', 5.0: 'PERMISSION NOT GIVEN TO COLLECT SAMPLE', 9.0: 'NO RESPONSE'}"
+WQ19A,Conduct Salinity Source test,89.56,2,"{1.0: 'RESULTS SHOWN IN ?S', 2.0: 'RESULTS SHOWN IN mS', 6.0: 'ERROR CODE 6', 8.0: 'OTHER ERROR CODE'}"
+WQ19B,Result of salinity test (in micro-siemens ?S),89.89,704,{}
+WQ19C,Result of salinity test (in milli-siemens mS),99.67,34,{}
+WQ19D,Result of Arsenic test from source water (in PPB),89.56,24,{995.0: 'PPB IS MORE THAN 500'}
+WQ20,HH selected for blank testing,89.47,2,"{1.0: 'YES', 2.0: 'NO'}"
+WQ21,Blank water test available,99.04,1,"{1.0: 'BLANK WATER SAMPLE AVAILABLE', 2.0: 'BLANK WATER SAMPLE NOT AVAILABLE', 9.0: 'NO RESPONSE'}"
+WQ21A,Conduct Salinity blank test,99.04,1,"{1.0: 'RESULTS SHOWN IN ?S', 2.0: 'RESULTS SHOWN IN mS', 6.0: 'ERROR CODE 6', 8.0: 'OTHER ERROR CODE'}"
+WQ21B,Result of salinity blank test (in micro-siemens ?S),99.04,78,{}
+WQ21C,Result of salinity blank test (in milli-siemens mS),100.0,0,{}
+WQ21D,Result of Arsenic blank test (in PPB),99.04,1,{995.0: 'PPB IS MORE THAN 500'}
+WQ24D,Day of recording test results,89.47,31,{}
+WQ24M,Month of recording test results,89.47,5,"{1.0: 'JANUARY', 2.0: 'FEBRUARY', 3.0: 'MARCH', 4.0: 'APRIL', 5.0: 'MAY', 6.0: 'JUNE', 7.0: 'JULY', 8.0: 'AUGUST', 9.0: 'SEPTEMBER', 10.0: 'OCTOBER', 11.0: 'NOVEMBER', 12.0: 'DECEMBER'}"
+WQ24Y,Year of recording test results,89.47,1,"{2024.0: '2024', 2025.0: '2025'}"
+WQ25H,Time of recording test results - Hour,89.47,17,{}
+WQ25M,Time of recording test results - Minutes,89.47,60,{}
+WQ26,Household water E. coli test (100ml),89.47,95,"{101.0: 'MORE THAN 100', 991.0: 'NOT POSSIBLE TO READ THE RESULTS', 992.0: 'THE RESULTS HAVE BEEN LOST'}"
+WQ27,Source water E. coli test (100ml),89.62,66,"{101.0: 'MORE THAN 100', 991.0: 'NOT POSSIBLE TO READ THE RESULTS', 992.0: 'THE RESULTS HAVE BEEN LOST'}"
+WQ29,Blank water test (100ml),99.04,2,"{101.0: 'MORE THAN 100', 991.0: 'NOT POSSIBLE TO READ THE RESULTS', 992.0: 'THE RESULTS HAVE BEEN LOST'}"
+HHSEX,Sex of household head,0.0,2,"{1.0: 'Male', 2.0: 'Female', 9.0: 'Missing'}"
+HHAGE,Age of household head,0.0,75,{}
+HH53,Number of woman' questionnaires completed,0.0,8,{}
+BLWM,Number of eligible Pregnant women,0.0,4,{}
+BLWMs,BLL tests sample collection from pregnant women,0.0,4,{}
+BLWMAT23,Response - result of blood sample collection from pregnant women,0.96,4,{}
+HH55,Number of under - 5 questionnaires completed,0.0,5,{}
+BLCHs,BLL tests sample collection from children 12-59 months,0.0,5,{}
+BLCHc,,0.0,1,{}
+BLCHUF8A,,0.0,2,{}
+BLCHLT27,Response - result of blood sample collection children 12-59 months,0.0,2,{}
+HH56,Number of CF questionnaires completed (age 5-17),0.0,2,{}
+ethnicity,Ethnicity of household head,0.0,2,"{1.0: 'Bangali', 6.0: 'Other', 9.0: 'Missing/DK'}"
+helevel,Education of household head,0.0,7,"{0.0: 'Pre-primary or none', 1.0: 'Primary', 2.0: 'Lower Secondary', 3.0: 'Secondary', 4.0: 'Higher Secondary', 5.0: 'Higher', 9.0: 'Missing/DK'}"
+hhweight,Household sample weight,0.0,2945,{}
+wqhweight,Weight for household WQT,0.0,2945,{}
+wqsweight,Weight for source WQT,0.0,2943,{}
+wscore,Combined wealth score,0.0,10600,{}
+windex5,Wealth index quintile,0.0,5,"{1.0: 'Poorest', 2.0: 'Second', 3.0: 'Middle', 4.0: 'Fourth', 5.0: 'Richest'}"
+windex10,Wealth index decile,0.0,10,"{1.0: '1st decile', 2.0: '2nd decile', 3.0: '3rd decile', 4.0: '4th decile', 5.0: '5th decile', 6.0: '6th decile', 7.0: '7th decile', 8.0: '8th decile', 9.0: '9th decile', 10.0: '10th decile'}"
+wscoreu,Urban wealth score,75.15,2640,{}
+windex5u,Urban wealth index quintile,75.15,5,"{1.0: 'Poorest', 2.0: 'Second', 3.0: 'Middle', 4.0: 'Fourth', 5.0: 'Richest'}"
+windex10u,Urban wealth index decile,75.15,10,"{1.0: '1st decile', 2.0: '2nd decile', 3.0: '3rd decile', 4.0: '4th decile', 5.0: '5th decile', 6.0: '6th decile', 7.0: '7th decile', 8.0: '8th decile', 9.0: '9th decile', 10.0: '10th decile'}"
+wscorer,Rural wealth score,24.85,7960,{}
+windex5r,Rural wealth index quintile,24.85,5,"{1.0: 'Poorest', 2.0: 'Second', 3.0: 'Middle', 4.0: 'Fourth', 5.0: 'Richest'}"
+windex10r,Rural wealth index decile,24.85,10,"{1.0: '1st decile', 2.0: '2nd decile', 3.0: '3rd decile', 4.0: '4th decile', 5.0: '5th decile', 6.0: '6th decile', 7.0: '7th decile', 8.0: '8th decile', 9.0: '9th decile', 10.0: '10th decile'}"
+PSU,Primary sampling unit,0.0,2985,{}
+stratum,Sample strata,0.0,131,{}
