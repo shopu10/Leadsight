@@ -1,0 +1,447 @@
+﻿Variable,Missing_Count,Missing_Percentage,Non_Missing_Count,Unique_Values,Description
+LT28A,10634,100.0,0,0,Label of collected blood sample
+UIN2NR,10634,100.0,0,0,Type of health insurance - No response
+UF15L$4,10634,100.0,0,0,Another personal or shared phone number where can be reached
+UF15L$5,10634,100.0,0,0,Another personal or shared phone number where can be reached
+AR5Q,10634,100.0,0,0,Place sought care: Other NGO
+UF15K$3,10634,100.0,0,0,Confirm shared number
+UF15K$5,10634,100.0,0,0,Confirm shared number
+UF15K$4,10634,100.0,0,0,Confirm shared number
+UF15L$3,10634,100.0,0,0,Another personal or shared phone number where can be reached
+EC5B1NR,10634,100.0,0,0,Tell stories - No response
+AR5L,10634,100.0,0,0,Place sought care: Private mobile clinic
+EC5D1NR,10634,100.0,0,0,Took outside - No response
+DA6NR,10634,100.0,0,0,Place sought care: No response
+DA6E,10634,100.0,0,0,Place sought care: Mobile / Outreach/ ?Satelite clinic
+DA6K,10634,100.0,0,0,Place sought care: Community health worker (Non Government)
+DA6Z,10634,100.0,0,0,Place sought care: DK / Don't remember
+DA11NR,10634,100.0,0,0,Other treatment: No response
+DA6N,10634,100.0,0,0,Place sought care: Other private medical
+DA6O,10634,100.0,0,0,Place sought care: NGO hospital
+DA6Q,10634,100.0,0,0,Place sought care: Other NGO
+DA6W,10634,100.0,0,0,"Place sought care: DK public, private, or NGO"
+EC5E1NR,10634,100.0,0,0,Played with - No response
+EC5F1NR,10634,100.0,0,0,Named/counted - No response
+AR5N,10634,100.0,0,0,Place sought care: Other private medical
+EC5C1NR,10634,100.0,0,0,Sang songs - No response
+AR5Z,10634,100.0,0,0,Place sought care: DK / Don't remember
+EC5A1NR,10634,100.0,0,0,Read books - No response
+AR5NR,10634,100.0,0,0,Place sought care: No response
+AR5E,10634,100.0,0,0,Place sought care: Mobile / Outreach / Satelite clinic
+UIN2X,10633,99.99,1,1,Type of health insurance - Other
+AR5O,10633,99.99,1,1,Place sought care: NGO hospital
+DA6P,10633,99.99,1,1,Place sought care: NGO clinic
+AR5K,10633,99.99,1,1,Place sought care: Community health worker (Non Government)
+AR5G,10633,99.99,1,1,Place sought care: Other public medical
+DA11Q,10633,99.99,1,1,Other treatment: Home remedy / Herbal medicine
+DA6C,10633,99.99,1,1,Place sought care: Community Clinic (CC)
+DA6G,10633,99.99,1,1,Place sought care: Other public medical
+DA6L,10633,99.99,1,1,Place sought care: Private mobile clinic
+UIN2C,10632,99.98,2,1,Type of health insurance - Social security
+UIN2A,10632,99.98,2,1,Type of health insurance - Mutual-health organization / Community-based health insurance
+DA11O,10632,99.98,2,1,Other treatment: Intravenous (IV)
+AR5P,10632,99.98,2,1,Place sought care: NGO clinic
+LT22NR,10632,99.98,2,1,Lead can be found: No Response
+DA11N,10632,99.98,2,1,Other treatment (injection): Unknown
+AR5S,10632,99.98,2,1,Place sought care: Relative / Friend
+AR5W,10632,99.98,2,1,Place sought care: DK public or private
+DA11M,10632,99.98,2,1,Other treatment (injection): Non-antibiotic
+DA6S,10631,99.97,3,1,Place sought care: Relative / Friend
+UIN2D,10631,99.97,3,1,Type of health insurance - Other privately purchased commercial health insurance
+LT26NR,10630,99.96,4,1,Know to avoid harm from lead: No Response
+DA11L,10629,99.95,5,1,Other treatment (injection): Antibiotic
+DA11I,10629,99.95,5,1,Other treatment (pill or syrup): Enterogermina
+DA6D,10628,99.94,6,1,Place sought care: Community health worker (HA/CHCP/HI/AHI/FPI/FWA)
+DA6X,10628,99.94,6,1,Place sought care: Other
+AR5D,10627,99.93,7,1,Place sought care: Community health worker (HA/CHCP/HI/AHI/FPI/FWA)
+LT25NR,10625,99.92,9,1,Know lead can be harmful for child: No Response
+AR10NR,10625,99.92,9,1,Medicine taken: No response
+DA6B,10623,99.9,11,1,Place sought care: Government health centre (UH & FWC/USC/RD)
+UF15K$2,10622,99.89,12,1,Confirm shared number
+UF15L$2,10622,99.89,12,1,Another personal or shared phone number where can be reached
+AR5X,10621,99.88,13,1,Place sought care: Other
+AR5B,10621,99.88,13,1,Place sought care: Government health centre (UH & FWC/USC/RD)
+DA6H,10621,99.88,13,1,Place sought care: Private hospital / clinic
+DA8,10620,99.87,14,7,Place first sought care
+DA6T,10619,99.86,15,1,Place sought care: Shop / Market / Street
+AR10W,10618,99.85,16,2,Medicine taken: Only brand name recorded
+AR10R,10617,99.84,17,2,Medicine taken: Paracetamol / Panadol / Acetaminophen
+AR5T,10616,99.83,18,1,Place sought care: Shop / Market / Street
+AR5C,10615,99.82,19,1,Place sought care: Community clinic (CC)
+DA11H,10614,99.81,20,1,Other treatment (pill or syrup): Unknown
+DA11X,10610,99.77,24,1,Other treatment: Other
+AR10M,10609,99.76,25,2,Medicine taken: Antibiotics: Cotrimoxazole
+AR10T,10608,99.76,26,2,Medicine taken: Ibupropfen
+AR7,10607,99.75,27,10,Place first sought care
+UIN2B,10605,99.73,29,1,Type of health insurance - Health insurance through employer
+BD8A1,10601,99.69,33,5,Times ate yogurt
+BD7D1,10600,99.68,34,5,Times child drank yogurt drinks
+BD7D2,10600,99.68,34,2,Yogurt drinks was a sweet or flavoured type of
+AR5H,10599,99.67,35,1,Place sought care: Private hospital / clinic
+DA6I,10598,99.66,36,1,Place sought care: Private physician
+LT26G,10591,99.6,43,2,Know to avoid harm from lead: Workers in lead acid battery recycling fields should wear protective equipment and change clothes before entering the home
+DA6A,10590,99.59,44,1,Place sought care: Government hospital
+DA11G,10588,99.57,46,1,Other treatment (pill or syrup): Other
+DA6U,10565,99.35,69,1,Place sought care: Traditional practitioner
+DA11A,10564,99.34,70,1,Other treatment (pill or syrup): Antibiotic
+BD7X2,10563,99.33,71,2,Other drinks was sweetened
+LT25X,10562,99.32,72,2,Know lead can be harmful for child: Other
+AR5A,10561,99.31,73,1,Place sought care: Government hospital
+UCF12,10560,99.3,74,5,When using equipment or assistance child has difficulty walking
+UCF11,10560,99.3,74,4,Without using equipment or assistance child has difficulty walking
+AR10O,10554,99.25,80,2,Medicine taken: Antibiotics: Other antibiotic injection / IV
+AR10X,10552,99.23,82,2,Medicine taken: Other
+AR10Z,10551,99.22,83,2,Medicine taken: DK
+LT22G,10544,99.15,90,2,Lead can be found: Solder
+LT26X,10541,99.13,93,2,Know to avoid harm from lead: Other
+AR5I,10542,99.13,92,1,Place sought care: Private physician
+LT25I,10518,98.91,116,2,Know lead can be harmful for child: Causes cancer
+DA11B,10515,98.88,119,1,Other treatment (pill or syrup): Antimotility (anti-diarrhoea)
+UF15I,10513,98.86,121,1,Note on sharing phone number for the household
+UF15L$1,10513,98.86,121,2,Another personal or shared phone number where can be reached
+UF15K$1,10513,98.86,121,1,Confirm shared number
+LT22M,10512,98.85,122,2,Lead can be found: Traditional cosmetics such as kohl and sindoor
+LT22E,10499,98.73,135,2,Lead can be found: Pigments
+LT22K,10498,98.72,136,2,Lead can be found: Ceramic glazes
+AR5U,10498,98.72,136,1,Place sought care: Traditional practitioner
+LT25G,10497,98.71,137,2,Know lead can be harmful for child: Cardiovascular disease
+AR10L,10493,98.67,141,2,Medicine taken: Antibiotics: Amoxicillin
+LT25E,10492,98.66,142,2,Know lead can be harmful for child: Renal failure and kidney disease
+LT25F,10490,98.65,144,2,Know lead can be harmful for child: Liver failure and liver disease
+BD7B1,10488,98.63,146,7,Times child drank infant formula
+LT22J,10486,98.61,148,2,Lead can be found: Ammunition
+LT22C,10486,98.61,148,2,Lead can be found: Manufacturing and recycling activities
+LT22P,10481,98.56,153,2,Lead can be found: Yellow coloring
+LT26F,10464,98.4,170,2,Know to avoid harm from lead: Children should avoid playing in battery recycling areas
+LT22H,10453,98.3,181,2,Lead can be found: Stained glass
+LT22I,10448,98.25,186,2,Lead can be found: Lead crystal glassware
+BD7H1,10445,98.22,189,2,"Tea, coffee, or herbal drinks was sweetened"
+UF15GH,10425,98.03,209,2,Have personal phone number or phone number for the household
+EC5C1X,10425,98.03,209,1,Sang songs - Other
+LT22B,10411,97.9,223,2,Lead can be found: Smelting
+LT22O,10389,97.7,245,2,Lead can be found: Powdered turmeric
+UB0B,10388,97.69,246,7,Relationship of caregiver to child
+LT26D,10384,97.65,250,2,Know to avoid harm from lead: Do not consume artificial yellow colors called ?peuri? or ?sharshe phul? color since they contain lead (yellow coloring)
+DA6J,10379,97.6,255,1,Place sought care: Private pharmacy
+EC5F1X,10374,97.56,260,1,Named/counted - Other
+LT22D,10373,97.55,261,2,Lead can be found: Lead-acid batteries for motor vehicles
+LT26E,10366,97.48,268,2,Know to avoid harm from lead: Do not store food in lead-soldered cans (food storage)
+AR10S,10351,97.34,283,2,Medicine taken: Aspirin
+EC5C1B,10344,97.27,290,1,Sang songs - Father
+AR10N,10297,96.83,337,2,Medicine taken: Antibiotics: Other antibiotic pill / syrup
+LT22F,10291,96.77,343,2,Lead can be found: Paints
+LT22N,10278,96.65,356,2,Lead can be found: Soil or clay
+LT25C,10277,96.64,357,2,Know lead can be harmful for child: Causes Diarrhoea
+BD7C1,10264,96.52,370,7,Times child drank milk from animals
+BD7C2,10264,96.52,370,2,Milk from animals was a sweet or flavoured type of
+AR5J,10255,96.44,379,1,Place sought care: Private pharmacy
+UF15EF,10255,96.44,379,2,Consent for phone survey
+LT22L,10254,96.43,380,2,Lead can be found: Jewellery
+LT26B,10246,96.35,388,2,Know to avoid harm from lead: Consume more calcium and iron through dairy and dark leafy vegetables
+EC5A1X,10244,96.33,390,1,Read books - Other
+LT25D,10233,96.23,401,2,Know lead can be harmful for child: Causes breathing problem
+EC5F1B,10231,96.21,403,1,Named/counted - Father
+LT25H,10231,96.21,403,2,Know lead can be harmful for child: Causes anemia and other eating disorders
+LT26C,10230,96.2,404,2,"Know to avoid harm from lead: Do not buy powdered turmeric, instead buy unpolished dried turmeric"
+LT22X,10176,95.69,458,2,Lead can be found: Other
+LT25B,10164,95.58,470,2,Know lead can be harmful for child: Affects children?s cognitive growth
+EC5A1B,10151,95.46,483,1,Read books - Father
+EC5B1X,10031,94.33,603,1,Tell stories - Other
+LT22A,10026,94.28,608,2,Lead can be found: Food
+LT25A,10000,94.04,634,3,Know lead can be harmful for child: Affects children?s physical growth
+LT26A,9987,93.92,647,2,Know to avoid harm from lead: Do not consume soil or clay
+DA9C,9956,93.62,678,3,Child given zinc tablets or syrup
+DA9D,9956,93.62,678,2,Child given suger and lalt solution (home-made fluid)
+DA4,9956,93.62,678,6,Child was given less or more to eat during diarrhoea
+DA3,9956,93.62,678,5,Child was given less or more to drink during diarrhoea
+DA9E,9956,93.62,678,2,Child given green coconut water
+DA9B,9956,93.62,678,2,Child given rice based ORS packet saline
+DA5,9956,93.62,678,2,Sought advice or treatment for the diarrhoea from any source
+DA9A,9956,93.62,678,3,Child given ORS packet solution
+DA9F,9956,93.62,678,2,Child given rice water
+DA9G,9956,93.62,678,2,Child given boiled rice water
+DA10,9956,93.62,678,3,Anything else given to treat the diarrhoea
+AR8,9868,92.8,766,13,How many days after illness first sought care
+EC5B1B,9858,92.7,776,1,Tell stories - Father
+EC5E1B,9802,92.18,832,1,Played with - Father
+EC5D1X,9719,91.4,915,1,Took outside - Other
+AR9,9657,90.81,977,3,Took medicine to treat this illness
+AR3,9657,90.81,977,5,Difficulty breathing due to problem in chest or blocked nose
+AR4,9657,90.81,977,3,Sought advice or treatment for illness
+UB8,9600,90.28,1034,3,Currently attending early childhood education programme
+EC5E1X,9481,89.16,1153,1,Played with - Other
+BD3,8666,81.49,1968,2,Child was breastfed yesterday
+BD9,8662,81.46,1972,9,Times child ate solid or semi-solid food
+BD8A,8610,80.97,2024,3,Child ate yogurt other than yogurt drinks yesterday
+BD2,8610,80.97,2024,2,Child ever been breastfed
+BD8B,8610,80.97,2024,2,Child ate foods made from grains yesterday
+BD7C,8610,80.97,2024,2,Child drank milk from animals yesterday
+BD8C,8610,80.97,2024,3,"Child ate pumpkin, carrots, squash etc. that are yellow or orange inside yesterday"
+BD6,8610,80.97,2024,3,Child drank or ate vitamin or mineral supplements yesterday
+BD8N,8610,80.97,2024,2,"Child ate beans, peas, lentils or nuts or any food made from these yesterday"
+BD8M,8610,80.97,2024,2,Child ate fresh or dried fish or shellfish yesterday
+BD8O,8610,80.97,2024,3,Child ate hard or soft cheese yesterday
+BD7A,8610,80.97,2024,2,Child drank plain water yesterday
+BD4,8610,80.97,2024,2,Child drank anything from a bottle with a nipple yesterday
+BD7B,8610,80.97,2024,2,Child drank infant formula yesterday
+BD5,8610,80.97,2024,2,Child drank ORS yesterday
+BD8G,8610,80.97,2024,2,"Child ate ripe mangoes, papayas etc. any other vitamin A-rich fruits yesterday"
+BD8K,8610,80.97,2024,2,"Child ate meat, such as beef, pork, lamb, goat, chicken, duck yesterday"
+BD8J,8610,80.97,2024,2,"Child ate sausages, hot dogs, ham, bacon, salami, canned meat or other processed meats yesterday"
+BD8L,8610,80.97,2024,3,Child ate eggs yesterday
+BD8E,8610,80.97,2024,3,"Child ate dark green, leafy vegetables yesterday"
+BD8F,8610,80.97,2024,3,Child ate other vegetables yesterday
+BD7F,8610,80.97,2024,2,Child drank fruit juice or fruit-flavoured drinks yesterday
+BD7G,8610,80.97,2024,3,"Child drank sodas, malt, sports or energy drinks yesterday"
+BD7H,8610,80.97,2024,3,"Child drank tea, coffee, or herbal drinks yesterday"
+BD7X,8610,80.97,2024,2,Child drank any other liquid yesterday
+BD8D,8610,80.97,2024,3,"Child ate plantains, white potatoes, white yams, manioc, cassava etc. any other foods made from starchy roots yesterday"
+BD7I,8610,80.97,2024,4,Child drank clear broth or clear soup yesterday
+BD8X,8610,80.97,2024,2,"Child ate other solid, semi-solid or soft food yesterday"
+BD8Q,8610,80.97,2024,2,"Child ate chips, crisps, puffs, French fries, fried dough, instant noodles or other sentinel fried and salty foods yesterday"
+BD8P,8610,80.97,2024,3,"Child ate sweet foods such as chocolates, candies, pastries, cakes, biscuits, frozen treats or other sentinel sweet foods yesterday"
+BD8H,8610,80.97,2024,2,Child ate other fruits yesterday
+BD8I,8610,80.97,2024,2,"Child ate liver, kidney, heart or other organ meat yesterday"
+BD7E,8610,80.97,2024,3,Child drank chocolate-flavoured drinks yesterday
+BD8DUMMY,8610,80.97,2024,1,Dummy for BD8 explanation
+BD7D,8610,80.97,2024,3,Child drank yogurt drinks yesterday
+EC5D1B,8428,79.26,2206,1,Took outside - Father
+EC5E1A,8158,76.72,2476,1,Played with - Mother
+windex5u,7991,75.15,2643,5,Urban wealth index quintile
+windex10u,7991,75.15,2643,10,Urban wealth index decile
+wscoreu,7991,75.15,2643,2643,Urban wealth score
+EC5C1A,7823,73.57,2811,1,Sang songs - Mother
+LT24,7821,73.55,2813,3,Concerned about lead exposure to her children
+EC5F1A,7784,73.2,2850,1,Named/counted - Mother
+EC5D1A,7089,66.66,3545,1,Took outside - Mother
+EC5A1A,6953,65.38,3681,1,Read books - Mother
+BR3,6950,65.36,3684,3,Know how to register birth
+EC5B1A,6652,62.55,3982,1,Tell stories - Mother
+BR2,5937,55.83,4697,3,Birth registered
+UCD4,3569,33.56,7065,2,Already responded to question UCD5 or FCD5
+EC12,2753,25.89,7881,3,Child speaks using sentences of 5 or more words that go together
+UCD5,2738,25.75,7896,4,Child needs to be physically punished to be brought up properly
+windex10r,2643,24.85,7991,10,Rural wealth index decile
+wscorer,2643,24.85,7991,7969,Rural wealth score
+windex5r,2643,24.85,7991,5,Rural wealth index quintile
+LT22Z,2284,21.48,8350,2,Lead can be found: DK
+UCF13,2098,19.73,8536,4,"Compared with children of the same age, child has difficulty walking"
+EC5D,2024,19.03,8610,3,"In past 3 days, took outside"
+EC5E,2024,19.03,8610,4,"In past 3 days, played with"
+EC18,2024,19.03,8610,3,Child gives correct amount of objects when asked
+EC20,2024,19.03,8610,4,Child does an activity without repeatedly asking for help or giving up too quickly
+EC13,2024,19.03,8610,2,"Child correctly uses any of the words 'I', 'you', 'she', or 'he'"
+EC9,2024,19.03,8610,3,Child fasten and unfasten buttons without help
+EC19,2024,19.03,8610,4,Child counts 10 objects without mistakes
+EC16,2024,19.03,8610,3,Child writes own name
+EC15,2024,19.03,8610,3,Child recognizes at least 5 letters of the alphabet
+EC17,2024,19.03,8610,3,Child recognized all numbers from 1 to 5
+EC22,2024,19.03,8610,4,Child offers to help someone who seems to need help
+EC5F,2024,19.03,8610,3,"In past 3 days, spent time naming, counting, or drawing"
+EC5A,2024,19.03,8610,3,"In past 3 days, read books or looks at picture book"
+EC21,2024,19.03,8610,3,Child asks about familiar people other than parents when they are not there
+EC6,2024,19.03,8610,3,Child walks on an uneven surface without falling
+EC10,2024,19.03,8610,2,Child says 10 or more words
+EC8,2024,19.03,8610,3,Child dresses himself/herself without help
+EC14,2024,19.03,8610,3,Child consistently names an object when shown
+EC5C,2024,19.03,8610,3,"In past 3 days, sang songs"
+UCF18,2024,19.03,8610,5,"Compared with children of the same age, child has difficulty playing"
+UCF16,2024,19.03,8610,4,Child has difficulty being understood by parent/caregiver when speaks
+EC7,2024,19.03,8610,3,Child jumps up with both feet leaving the ground
+EC25,2024,19.03,8610,7,"How much child kicks, bites, or hits other children or adults"
+EC5B,2024,19.03,8610,3,"In past 3 days, tell stories"
+EC24,2024,19.03,8610,7,How often child seems to be very sad or depressed
+EC23,2024,19.03,8610,3,Child gets along well with other children
+EC11,2024,19.03,8610,3,Child speaks using sentences of 3 or more words that go together
+UCF15,2024,19.03,8610,4,Child has difficulty understanding parent/caregiver
+UCF9,2024,19.03,8610,4,Child has difficulty hearing sounds like people voices or music
+UCF17,2024,19.03,8610,5,"Compared with children of the same age, child has difficulty learning things"
+UCF14,2024,19.03,8610,4,"Compared with children of the same age, child has difficulty picking upsmall objects with his/her hand"
+UCF7,2024,19.03,8610,2,Child has difficulty seeing
+UCF3,2024,19.03,8610,2,Child uses hearing aid
+UCF4,2024,19.03,8610,2,Child uses any equipment or receive assistance for walking
+UCF2,2024,19.03,8610,2,Child wear glasses
+cdisability,2024,19.03,8610,2,Child's functional difficulties (age 2-4 years)
+EU4,1683,15.83,8951,12,Type of energy source for cookstove
+LT25Z,1647,15.49,8987,2,Know lead can be harmful for child: DK
+LT26Z,1512,14.22,9122,2,Know to avoid harm from lead: DK
+ED5B,750,7.05,9884,20,Highest grade attended at that level
+ED5A,736,6.92,9898,8,Highest level of education attended
+LT23,693,6.52,9941,4,About lead exposure to children
+LT21,693,6.52,9941,3,Knowledge about lead
+caretakerdis,245,2.3,10389,2,Functional difficulties (age 18-49 years)
+UF15C,90,0.85,10544,2,Has been interviewed for any individual questionnaires
+S_Cd,89,0.84,10545,27,Result of Cadmium in soil - miligram per kilogram
+S_Hg,89,0.84,10545,34,Result of Mercury in soil - miligram per kilogram
+S_Lead,89,0.84,10545,114,Result of Lead in soil - miligram per kilogram
+S_As,89,0.84,10545,33,Result of Arsenic in soil - miligram per kilogram
+AN12,39,0.37,10595,2,Child measured lying or standing
+AN13,39,0.37,10595,2,Measurement interfered with by braided or ornamented hair
+AN9,15,0.14,10619,2,Child undressed to the minimum
+AN11,5,0.05,10629,515,Child's length or height (centimetres)
+EC1,0,0.0,10634,11,Number of children's books or picture books for child
+DA1,0,0.0,10634,4,Child had diarrhoea in last 2 weeks
+EC3B,0,0.0,10634,10,Number of days left in the care of another child less than 10 years old for more than one hour
+UCD2E,0,0.0,10634,3,Gave child something else to do
+EC3A,0,0.0,10634,10,Number of days left alone for more than one hour
+EC2C,0,0.0,10634,2,Play with household objects or outside objects
+stratum,0,0.0,10634,131,Sample strata
+UF8A,0,0.0,10634,1,Child selected for BLOOD COLLECTION
+WAP,0,0.0,10634,820,Weight for age percentile NCHS
+WAZ,0,0.0,10634,637,Weight for age z-score NCHS
+PSU,0,0.0,10634,2986,Primary sampling unit
+HAZFLAG,0,0.0,10634,2,Height for age flag WHO
+WHZ2,0,0.0,10634,660,Weight for height z-score WHO
+WAZ2,0,0.0,10634,648,Weight for age z-score WHO
+HAZ2,0,0.0,10634,711,Height for age z-score WHO
+ZBMI,0,0.0,10634,679,Body Mass Index z-score WHO
+BMI,0,0.0,10634,845,Body Mass Index WHO
+FLAG,0,0.0,10634,7,Flag for anthropometric indicators
+WHM,0,0.0,10634,575,Weight for height percent of reference median NCHS
+WHZ,0,0.0,10634,618,Weight for height z-score NCHS
+WHP,0,0.0,10634,903,Weight for height percentile NCHS
+WAM,0,0.0,10634,700,Weight for age percent of reference median NCHS
+UF7M,0,0.0,10634,5,Month of interview
+UF7Y,0,0.0,10634,1,Year of interview
+UF3,0,0.0,10634,16,Child's line number
+UFINT,0,0.0,10634,205,Interviewer number
+UF4,0,0.0,10634,16,Mother / Caretaker's line number
+EC2A,0,0.0,10634,3,Play with homemade toys
+EC2B,0,0.0,10634,2,Play with toys from shops
+AR1,0,0.0,10634,3,Child ill with cough in the last 2 weeks
+LN,0,0.0,10634,16,Line number
+HH2,0,0.0,10634,20,Household number
+HH1,0,0.0,10634,2986,Cluster number
+UF5,0,0.0,10634,205,Interviewer number
+UF7D,0,0.0,10634,31,Day of interview
+UF6,0,0.0,10634,41,Supervisor number
+UF2,0,0.0,10634,20,Household number
+UF1,0,0.0,10634,2986,Cluster number
+LT17E,0,0.0,10634,4,"Any direction from residence: Recycle electronic waste (e-waste including mobile phone, computer, laptop etc)"
+LT17F,0,0.0,10634,4,Any direction from residence: Repair automobiles
+LT18A,0,0.0,10634,3,"Last 3 month any individual with regular contact with child, work at: Make vehicle batteries"
+LT18B,0,0.0,10634,3,"Last 3 month any individual with regular contact with child, work at: Recycle vehicle batteries by melting their inside components"
+LT18C,0,0.0,10634,3,"Last 3 month any individual with regular contact with child, work at: Repair or disassemble vehicle batteries by breaking them open and draining acid"
+LT18D,0,0.0,10634,3,"Last 3 month any individual with regular contact with child, work at: Make or recycle jewelry"
+LT1,0,0.0,10634,2986,Cluster number
+LT2,0,0.0,10634,20,Household number
+LT3,0,0.0,10634,16,Child's line number
+LT4M,0,0.0,10634,12,Month of birth of child
+LT4Y,0,0.0,10634,5,Year of birth of child
+LT5,0,0.0,10634,16,Mother / Caretaker's line number
+LT6,0,0.0,10634,41,Supervisor number
+LT7,0,0.0,10634,205,Interviewer number
+LT8,0,0.0,10634,42,Phlebotomist's number
+LT9D,0,0.0,10634,31,Day of Collection
+LT9M,0,0.0,10634,5,Month of Collection
+LT9Y,0,0.0,10634,1,Year of Collection
+LT10H,0,0.0,10634,18,Record - Hour
+LT10M,0,0.0,10634,60,Record - Minutes
+UB0,0,0.0,10634,1,Advice to bring relevant documents
+CHFIN,0,0.0,10634,1,Finish
+UCD2C,0,0.0,10634,3,Shook child
+UB0A,0,0.0,10634,3,Biological mother/father of child
+UCD2B,0,0.0,10634,3,Explained why behaviour was wrong
+UCD2A,0,0.0,10634,3,Took away privileges
+BR1,0,0.0,10634,4,Has birth certificate
+UIN1,0,0.0,10634,2,Covered by any health insurance
+UB2,0,0.0,10634,4,Age of child
+UB1Y,0,0.0,10634,5,Year of birth of child
+UB1M,0,0.0,10634,12,Month of birth of child
+UB1D,0,0.0,10634,32,Day of birth of child
+UCD2D,0,0.0,10634,3,"Shouted, yelled or screamed at child"
+AR2,0,0.0,10634,3,Difficulty breathing in the last 2 weeks
+LT19B,0,0.0,10634,15,"Yesterday the child, number of hours spent outside the home"
+LT19A,0,0.0,10634,23,"Yesterday the child, number of hours spent inside the home"
+LT18F,0,0.0,10634,4,"Last 3 month any individual with regular contact with child, work at: Repair automobiles"
+LT18E,0,0.0,10634,4,"Last 3 month any individual with regular contact with child, work at: Recycle electronic waste (e-waste including mobile phone, computer, laptop etc)"
+LT20,0,0.0,10634,5,"Last 3 months, habit of ingesting non-food items like soil, dirt, clay or pieces of paint"
+LT20A,0,0.0,10634,2,Another member of team interviewed for blood collection for children 1-4 or woman
+UCD2F,0,0.0,10634,3,"Spanked, hit or slapped child on bottom with bare hand"
+UCD2G,0,0.0,10634,3,"Hit child on the bottom or elsewhere with belt, brush, stick, etc."
+UCD2H,0,0.0,10634,3,"Called child dumb, lazy or another name"
+UCD2I,0,0.0,10634,3,"Hit or slapped child on the face, head or ears"
+C_labresult,0,0.0,10634,1,Result of blood sample test
+UCD3,0,0.0,10634,2,Mother / Caregiver of another child age under 5 or selected child age 5-17
+UCD2J,0,0.0,10634,3,"Hit or slapped child on the hand, arm or leg"
+UCD2K,0,0.0,10634,3,Beat child up as hard as one could
+C_As,0,0.0,10634,10583,"Children Blood Arsenic result, expressed in microgram per liter"
+C_Cd,0,0.0,10634,10510,"Children Blood Cadmium result, expressed in microgram per lliter"
+C_Hg,0,0.0,10634,10428,"Children Blood Mercury result, expressed in microgram per liter"
+C_Lead,0,0.0,10634,10618,"Children Blood Lead result, expressed in microgram per deciliter"
+CorrNo,0,0.0,10634,10634,Serial Number
+C_LAB_ID,0,0.0,10634,10634,ID provided by the ICDDRB for each sample received
+LT17D,0,0.0,10634,4,Any direction from residence: Make or recycle jewelry
+LT17B,0,0.0,10634,4,Any direction from residence: Recycle vehicle batteries by melting their inside components
+LT11,0,0.0,10634,1,Consent for testing in blood of children 1-4 years
+LT12,0,0.0,10634,5,Smoke cigarettes or bidis in last 3 months
+LT13,0,0.0,10634,5,"Worn an amulet  at neck, wrist or anywhere could put it in mouth in last 3 months"
+LT14,0,0.0,10634,5,Regular contact with use sindoor in last 3 months
+LT15,0,0.0,10634,4,Any individual with regular contact with use surma in last 3 months
+LT16,0,0.0,10634,4,Use surma in last 3 months
+LT17A,0,0.0,10634,4,Any direction from residence: Make vehicle batteries
+LT17C,0,0.0,10634,4,Any direction from residence: Repair or disassemble vehicle batteries by breaking them open and draining acid
+ethnicity,0,0.0,10634,2,Ethnicity of household head
+chweight,0,0.0,10634,2942,Children under 5's sample weight
+chblweight,0,0.0,10634,2943,Children under 5's BLL sample weight
+wscore,0,0.0,10634,10612,Combined wealth score
+windex10,0,0.0,10634,10,Wealth index decile
+windex5,0,0.0,10634,5,Wealth index quintile
+AN2,0,0.0,10634,20,Household number
+AN3,0,0.0,10634,16,Child's line number
+C_Hb,0,0.0,10634,5998,"Children Blood Hemoglobin result, expressed in gram per deciliter"
+UFHINT,0,0.0,10634,205,Household interviewer
+LT29EA,0,0.0,10634,2,Preferred method email
+LT29P,0,0.0,10634,2,Preferred method post
+LT30D,0,0.0,10634,31,Day of Collection
+LT29A,0,0.0,10634,3,Was barcode assigned to the sample after collection of soil sample
+melevel,0,0.0,10634,7,Mother's education
+cinsurance,0,0.0,10634,2,Health insurance
+LT26AC,0,0.0,10634,1,Thanks the respondent for cooperation
+LT27,0,0.0,10634,1,Result of blood sample collection
+LT28,0,0.0,10634,10634,Label of collected blood sample barcode
+LT29TA,0,0.0,10634,2,Preferred method telephone/ mobile number
+HH4,0,0.0,10634,41,Supervisor number
+HH7A,0,0.0,10634,67,District
+HH6,0,0.0,10634,2,Area
+HH7,0,0.0,10634,8,Division
+AN14D,0,0.0,10634,31,Day of measurement
+AN14M,0,0.0,10634,9,Month of measurement
+AN14Y,0,0.0,10634,1,Year of measurement
+AN8,0,0.0,10634,195,Child's weight (kilograms)
+AN1,0,0.0,10634,2986,Cluster number
+LT30Y,0,0.0,10634,1,Year of Collection
+LT30M,0,0.0,10634,7,Month of Collection
+WHZNOAGE,0,0.0,10634,1,Weight for height - Age flag WHO
+AN4,0,0.0,10634,4,Age of child
+AN5,0,0.0,10634,16,Mother / Caregiver's line number
+AN6,0,0.0,10634,205,Interviewer number
+AN7,0,0.0,10634,41,Measurer number
+HW1,0,0.0,10634,6,Place where household members most often wash their hands
+HC6A,0,0.0,10634,3,"Paint on HH walls, windows and doors"
+HAP,0,0.0,10634,957,Height for age percentile NCHS
+HAM,0,0.0,10634,369,Height for age percent of reference median NCHS
+CAGED,0,0.0,10634,1459,Age (in days)
+HC4,0,0.0,10634,10,Main material of floor
+CAGE_11,0,0.0,10634,4,Age (in months)
+CAGE_6,0,0.0,10634,4,Age (in months)
+CDOB,0,0.0,10634,52,Date of birth of child (CMC)
+CAGE,0,0.0,10634,48,Age (in months)
+CDOI,0,0.0,10634,5,Date of interview of child (CMC)
+HAZ,0,0.0,10634,745,Height for age z-score NCHS
+HL4,0,0.0,10634,2,Sex
+BMIFLAG,0,0.0,10634,2,BMI flag WHO
+WAZFLAG,0,0.0,10634,2,Weight for age flag WHO
+WHZFLAG,0,0.0,10634,2,Weight for height flag WHO
+Elevated_Lead,0,0.0,10634,2,
+UF15,0,0.0,10634,2,Translator used
+UF14,0,0.0,10634,2,Native language of the respondent
+UF13,0,0.0,10634,2,Language of the interview
+UF12,0,0.0,10634,1,Language of the questionnaire
+UF11M,0,0.0,10634,60,End of interview - Minutes
+UF11H,0,0.0,10634,17,End of interview - Hour
+UF8M,0,0.0,10634,60,Start of interview - Minutes
+UF8H,0,0.0,10634,17,Start of interview - Hour
+UF17,0,0.0,10634,1,Result of interview for children under 5
+UF10,0,0.0,10634,1,Consent
+UF9,0,0.0,10634,2,Respondent to another questionnaire
