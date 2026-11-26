@@ -1,7 +1,8 @@
-"""Milestone 1: Load Bangladesh MICS7 SPSS files, build variable inventories,
-and construct the initial eligible child blood-lead cohort.
+"""Milestone 1 & 2 (Cohort Validation): Load Bangladesh MICS7 SPSS files,
+build variable inventories, filter invalid C_Lead == 999 records, define
+primary and sensitivity targets, and flag >24-hour time anomalies.
 
-Raw .sav files and the output child-level CSV remain strictly local and are
+Raw .sav files and child-level CSV outputs remain strictly local and are
 excluded from version control via .gitignore.
 """
 
@@ -12,10 +13,10 @@ import pandas as pd
 import pyreadstat
 
 
-# Set MICS_SAV_DIR in your environment, or place .sav files in data/raw/
 SAV_DIR = Path(os.environ.get("MICS_SAV_DIR", "data/raw"))
 INVENTORY_DIR = Path("docs/variable_inventories")
 PROCESSED_DIR = Path("data/processed")
+INVALID_LEAD_CODE = 999.0
 
 
 def create_inventory(df: pd.DataFrame, metadata, dataset_name: str) -> pd.DataFrame:
@@ -52,18 +53,37 @@ def create_inventory(df: pd.DataFrame, metadata, dataset_name: str) -> pd.DataFr
     return inv_df
 
 
-def build_initial_cohort(ch_df: pd.DataFrame) -> pd.DataFrame:
-    """Filter eligible children with valid lab status and numeric blood lead."""
+def add_time_anomaly_flags(df: pd.DataFrame) -> pd.DataFrame:
+    """Flag implausible indoor (>24h) or combined indoor/outdoor (>24h) values."""
+    out = df.copy()
+    indoor = pd.to_numeric(out["LT19A"], errors="coerce") if "LT19A" in out.columns else pd.Series(np.nan, index=out.index)
+    outdoor = pd.to_numeric(out["LT19B"], errors="coerce") if "LT19B" in out.columns else pd.Series(np.nan, index=out.index)
+
+    out["flag_indoor_gt_24h"] = (indoor > 24).fillna(False).astype(int)
+    combined = indoor.fillna(0) + outdoor.fillna(0)
+    both_present = indoor.notna() | outdoor.notna()
+    out["flag_combined_time_gt_24h"] = ((combined > 24) & both_present).astype(int)
+    return out
+
+
+def build_validated_cohort(ch_df: pd.DataFrame) -> tuple[pd.DataFrame, int]:
+    """Filter eligible children, drop C_Lead == 999 invalid lab codes, add targets."""
     lead_numeric = pd.to_numeric(ch_df["C_Lead"], errors="coerce")
 
     selected = ch_df["UF8A"] == 1
     valid_lab = ch_df["C_labresult"] == 1
     valid_measurement = lead_numeric.notna()
 
-    cohort = ch_df.loc[selected & valid_lab & valid_measurement].copy()
-    cohort["C_Lead"] = lead_numeric.loc[cohort.index]
-    cohort["Elevated_Lead"] = (cohort["C_Lead"] >= 5).astype(int)
-    return cohort
+    eligible = ch_df.loc[selected & valid_lab & valid_measurement].copy()
+    eligible["C_Lead"] = lead_numeric.loc[eligible.index]
+
+    invalid_999_count = int((eligible["C_Lead"] == INVALID_LEAD_CODE).sum())
+    validated = eligible.loc[eligible["C_Lead"] != INVALID_LEAD_CODE].copy()
+
+    validated["Elevated_Lead"] = (validated["C_Lead"] >= 5).astype(int)
+    validated["Elevated_Lead_3_5"] = (validated["C_Lead"] >= 3.5).astype(int)
+    validated = add_time_anomaly_flags(validated)
+    return validated, invalid_999_count
 
 
 def main() -> None:
@@ -96,14 +116,16 @@ def main() -> None:
     )
     print(f"Saved variable inventories ({len(all_inv)} total variables) to {INVENTORY_DIR}")
 
-    cohort = build_initial_cohort(ch_df)
+    cohort, dropped_999 = build_validated_cohort(ch_df)
     dup_count = int(cohort.duplicated(subset=["HH1", "HH2", "LN"]).sum())
 
-    print("\n--- Initial Child Blood-Lead Cohort Summary ---")
-    print(f"Total observations: {len(cohort)} | Total features: {cohort.shape[1]}")
+    print("\n--- Validated Child Blood-Lead Cohort Summary ---")
+    print(f"Dropped invalid C_Lead == 999 records: {dropped_999}")
+    print(f"Total validated observations: {len(cohort)} | Total columns: {cohort.shape[1]}")
     print(f"Duplicate child IDs (HH1, HH2, LN): {dup_count}")
-    print("Elevated_Lead (>= 5 ug/dL) distribution (%):")
-    print((cohort["Elevated_Lead"].value_counts(normalize=True) * 100).round(2))
+    print(f"Elevated_Lead (>= 5 ug/dL): {int((cohort['Elevated_Lead'] == 1).sum())} elevated / {int((cohort['Elevated_Lead'] == 0).sum())} below")
+    print(f"Elevated_Lead_3_5 (>= 3.5 ug/dL): {int((cohort['Elevated_Lead_3_5'] == 1).sum())} elevated / {int((cohort['Elevated_Lead_3_5'] == 0).sum())} below")
+    print(f"Flagged indoor >24h: {int(cohort['flag_indoor_gt_24h'].sum())} | combined >24h: {int(cohort['flag_combined_time_gt_24h'].sum())}")
 
     if "chblweight" in cohort.columns:
         weights = pd.to_numeric(cohort["chblweight"], errors="coerce")
@@ -112,11 +134,11 @@ def main() -> None:
             cohort.loc[valid_w, "Elevated_Lead"],
             weights=weights[valid_w],
         ) * 100
-        print(f"Survey-weighted elevated lead prevalence: {weighted_prev:.2f}% (n={int(valid_w.sum())})")
+        print(f"Survey-weighted elevated lead prevalence (>= 5 ug/dL): {weighted_prev:.2f}% (n={int(valid_w.sum())})")
 
-    out_path = PROCESSED_DIR / "LeadLens_CH_Initial.csv"
+    out_path = PROCESSED_DIR / "LeadLens_CH_Validated.csv"
     cohort.to_csv(out_path, index=False, encoding="utf-8-sig")
-    print(f"\nLocal cohort saved (gitignored): {out_path}")
+    print(f"\nLocal validated cohort saved (gitignored): {out_path}")
 
 
 if __name__ == "__main__":
