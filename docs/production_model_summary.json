@@ -1,0 +1,182 @@
+{
+  "metrics": {
+    "n_children": 10622,
+    "age_range_months": [
+      12,
+      59
+    ],
+    "n_parent_questions": 15,
+    "unweighted_prevalence": 0.317,
+    "weighted_prevalence": 0.3851,
+    "mean_predicted_weighted": 0.3845,
+    "roc_auc_unweighted": 0.736,
+    "roc_auc_fold_sd": 0.004,
+    "roc_auc_weighted": 0.7579,
+    "pr_auc_unweighted": 0.5989,
+    "pr_auc_weighted": 0.693,
+    "brier_weighted": 0.1872,
+    "ece_weighted": 0.0181
+  },
+  "oof_risk_tiers": [
+    {
+      "tier": "Low",
+      "n_children": 4748,
+      "weighted_pop_share_pct": 34.0,
+      "observed_unweighted_pct": 16.49,
+      "observed_weighted_pct": 17.23
+    },
+    {
+      "tier": "Moderate",
+      "n_children": 3495,
+      "weighted_pop_share_pct": 32.8,
+      "observed_unweighted_pct": 33.16,
+      "observed_weighted_pct": 34.87
+    },
+    {
+      "tier": "High",
+      "n_children": 1678,
+      "weighted_pop_share_pct": 20.34,
+      "observed_unweighted_pct": 50.77,
+      "observed_weighted_pct": 51.65
+    },
+    {
+      "tier": "Very High",
+      "n_children": 701,
+      "weighted_pop_share_pct": 12.86,
+      "observed_unweighted_pct": 81.74,
+      "observed_weighted_pct": 83.3
+    }
+  ],
+  "non_geographic_odds_ratios": [
+    {
+      "Feature": "cat__water_source_group_Piped_Dwelling_Yard",
+      "LogOdds": 0.3874,
+      "OddsRatio": 1.473
+    },
+    {
+      "Feature": "cat__floor_group_Rudimentary_Other",
+      "LogOdds": 0.3453,
+      "OddsRatio": 1.412
+    },
+    {
+      "Feature": "cat__water_source_group_Piped_Shared_Public",
+      "LogOdds": 0.2839,
+      "OddsRatio": 1.328
+    },
+    {
+      "Feature": "cat__wall_group_Tin",
+      "LogOdds": 0.2821,
+      "OddsRatio": 1.326
+    },
+    {
+      "Feature": "cat__child_sex_Male",
+      "LogOdds": 0.2572,
+      "OddsRatio": 1.293
+    },
+    {
+      "Feature": "cat__wall_group_Cement_Concrete",
+      "LogOdds": 0.2,
+      "OddsRatio": 1.221
+    },
+    {
+      "Feature": "cat__water_source_group_Other_Water_Source",
+      "LogOdds": 0.1736,
+      "OddsRatio": 1.19
+    },
+    {
+      "Feature": "bin__nearby_ewaste_yes",
+      "LogOdds": 0.1708,
+      "OddsRatio": 1.186
+    },
+    {
+      "Feature": "cat__area_type_Urban",
+      "LogOdds": 0.1608,
+      "OddsRatio": 1.174
+    },
+    {
+      "Feature": "cat__water_source_group_Tubewell_Deep",
+      "LogOdds": 0.1487,
+      "OddsRatio": 1.16
+    },
+    {
+      "Feature": "cat__floor_group_Finished_Tiles_Other",
+      "LogOdds": 0.1473,
+      "OddsRatio": 1.159
+    },
+    {
+      "Feature": "cat__floor_group_Finished_Cement",
+      "LogOdds": 0.1413,
+      "OddsRatio": 1.152
+    },
+    {
+      "Feature": "bin__contact_high_risk_job",
+      "LogOdds": 0.1253,
+      "OddsRatio": 1.133
+    },
+    {
+      "Feature": "cat__interior_paint_Peeling_Paint",
+      "LogOdds": 0.1221,
+      "OddsRatio": 1.13
+    },
+    {
+      "Feature": "bin__contact_unsure_any",
+      "LogOdds": 0.0987,
+      "OddsRatio": 1.104
+    },
+    {
+      "Feature": "num__contact_surma_ord",
+      "LogOdds": 0.0898,
+      "OddsRatio": 1.094
+    },
+    {
+      "Feature": "bin__nearby_auto_jewelry_yes",
+      "LogOdds": 0.0849,
+      "OddsRatio": 1.089
+    },
+    {
+      "Feature": "bin__nearby_battery_yes",
+      "LogOdds": 0.0686,
+      "OddsRatio": 1.071
+    },
+    {
+      "Feature": "bin__nearby_unsure_any",
+      "LogOdds": 0.0612,
+      "OddsRatio": 1.063
+    },
+    {
+      "Feature": "num__pica_freq_ord",
+      "LogOdds": 0.0467,
+      "OddsRatio": 1.048
+    },
+    {
+      "Feature": "cat__wall_group_Bricks",
+      "LogOdds": 0.0211,
+      "OddsRatio": 1.021
+    },
+    {
+      "Feature": "cat__interior_paint_Good_Paint",
+      "LogOdds": -0.0203,
+      "OddsRatio": 0.98
+    },
+    {
+      "Feature": "cat__wall_group_Other_Wood",
+      "LogOdds": -0.0448,
+      "OddsRatio": 0.956
+    },
+    {
+      "Feature": "num__child_age_months",
+      "LogOdds": -0.1061,
+      "OddsRatio": 0.899
+    },
+    {
+      "Feature": "num__sleeping_rooms_capped",
+      "LogOdds": -0.1213,
+      "OddsRatio": 0.886
+    },
+    {
+      "Feature": "num__mother_education_ord",
+      "LogOdds": -0.2393,
+      "OddsRatio": 0.787
+    }
+  ]
+}
